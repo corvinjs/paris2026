@@ -1,12 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-if [ "${1:-}" = "cache-paths" ]; then
-  # Extra dirs to persist between CI runs (see root .github/workflows/ci.yml).
-  echo "assets/downsized"
-  exit 0
-fi
-
 BASE_URL="${1:-/}"
 
 log() {
