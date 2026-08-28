@@ -144,7 +144,7 @@ module PictureTag
   end
 
   def image_dimensions(path)
-    ok, out = run!([*identify_cmd, "-format", "%w %h", path])
+    ok, out = run!([*identify_cmd, "-auto-orient", "-format", "%w %h", path])
     return nil unless ok && out
 
     w, h = out.split.map(&:to_i)
@@ -193,6 +193,7 @@ module PictureTag
     full_jxl = output_full_jxl(site, rel_path)
     small_jpg = output_small_jpg(site, rel_path)
     small_jxl = output_small_jxl(site, rel_path)
+    oriented = File.join(downsized_dir(site), "#{output_stem(rel_path)}.oriented.jpg")
     FileUtils.mkdir_p(downsized_dir(site))
 
     dims = image_dimensions(src)
@@ -204,36 +205,43 @@ module PictureTag
     full_w, full_h = dims
     small = needs_small?(full_w, full_h, site)
     small_w = full_w
-    small_h = full_h
 
-    if small
-      resize = "#{max_dim(site)}x#{max_dim(site)}>"
-      ok, err = run!([magick_cmd, src, "-resize", resize, "-strip", "-quality", quality(site).to_s, small_jpg])
+    begin
+      ok, err = run!([magick_cmd, src, "-auto-orient", "-strip", oriented])
       unless ok
-        Jekyll.logger.warn "PictureTag:", "magick failed for #{rel_path}: #{err}"
+        Jekyll.logger.warn "PictureTag:", "magick orient failed for #{rel_path}: #{err}"
         return nil
       end
-      small_dims = image_dimensions(small_jpg)
-      if small_dims
-        small_w, small_h = small_dims
-      end
-    end
 
-    ok, err = run!(["cjxl", src, full_jxl, "--lossless_jpeg=0", "-q", quality(site).to_s, "--quiet"])
-    unless ok
-      Jekyll.logger.warn "PictureTag:", "cjxl failed for #{rel_path}: #{err}"
-      return nil
-    end
-
-    if small
-      ok, err = run!(["cjxl", small_jpg, small_jxl, "--lossless_jpeg=0", "-q", quality(site).to_s, "--quiet"])
+      ok, err = run!(["cjxl", oriented, full_jxl, "--lossless_jpeg=0", "-q", quality(site).to_s, "--quiet"])
       unless ok
-        Jekyll.logger.warn "PictureTag:", "cjxl small failed for #{rel_path}: #{err}"
+        Jekyll.logger.warn "PictureTag:", "cjxl failed for #{rel_path}: #{err}"
         return nil
       end
-    else
-      FileUtils.rm_f(small_jpg)
-      FileUtils.rm_f(small_jxl)
+
+      if small
+        resize = "#{max_dim(site)}x#{max_dim(site)}>"
+        ok, err = run!([magick_cmd, oriented, "-resize", resize, "-quality", quality(site).to_s, small_jpg])
+        unless ok
+          Jekyll.logger.warn "PictureTag:", "magick failed for #{rel_path}: #{err}"
+          return nil
+        end
+        small_dims = image_dimensions(small_jpg)
+        if small_dims
+          small_w, _small_h = small_dims
+        end
+
+        ok, err = run!(["cjxl", small_jpg, small_jxl, "--lossless_jpeg=0", "-q", quality(site).to_s, "--quiet"])
+        unless ok
+          Jekyll.logger.warn "PictureTag:", "cjxl small failed for #{rel_path}: #{err}"
+          return nil
+        end
+      else
+        FileUtils.rm_f(small_jpg)
+        FileUtils.rm_f(small_jxl)
+      end
+    ensure
+      FileUtils.rm_f(oriented)
     end
 
     entry = {
