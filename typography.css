@@ -1,0 +1,171 @@
+/* Layout-critical */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+}
+
+figure {
+    margin: 1em 40px
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+details:not([open]) > *:not(summary) {
+    display: none !important;
+}
+
+/* Typography / Browser normalization */
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    max-width: 100%;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Large font */
+* {
+    font-size: large;
+}
+
+/* Text */
+
+small,
+small * {
+    font-size: small;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 7px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.25em; }
+h4 { font-size: 1em; }
+h5 { font-size: 0.875em; }
+h6 { font-size: 0.75em; }
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+blockquote {
+    margin: 0;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sub { bottom: -0.25em; }
+sup { top: -0.5em; }
+
+code, kbd, pre, samp, tt {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 12px;
+}
+
+pre {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Forms */
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 0;
+}
+
+/* Lists */
+
+ul, ol {
+    padding-left: 20px;
+}
+
+ol ol,
+ul ol {
+    list-style-type: lower-roman;
+}
+
+ul ul ol,
+ul ol ol,
+ol ul ol,
+ol ol ol {
+    list-style-type: lower-alpha;
+}
+
+li {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+dd {
+    margin-left: 0;
+}
+
+/* Tables */
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0;
+}
+
+/* Dividers */
+
+hr {
+    height: 0;
+    margin: 15px 0;
+    overflow: hidden;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid currentColor;
+}

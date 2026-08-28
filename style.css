@@ -1,0 +1,196 @@
+/* ================================================================ */
+
+/* Customization */
+/* wichtigste Optionen sind in diesem Abschnitt */
+
+/* Farben */
+:root {
+    /* Seitenhintergrund */
+    --color-background: white;
+
+    /* Titelleiste */
+    --color-navbar:     #dfe;
+
+    /* Schriftfarbe */
+    --color-font:       black;
+
+    /* Links und Inhaltsverzeichnis */
+    --color-hyperlink:  #537c4d;
+}
+
+/* Schriftart */
+
+@font-face {
+    font-family: 'LM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/lmsans10-regular.woff2') format('woff2');
+}
+
+/* Bold (Weight: 700) */
+@font-face {
+    font-family: 'LM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/fonts/lmsans10-bold.woff2') format('woff2');
+}
+
+body {
+    font-family: 'LM Sans', system-ui, -apple-system, Roboto, Arial, sans-serif;
+}
+
+/* ================================================================ */
+
+/* Apply Customization */
+
+:root {
+    background-color: var(--color-background);
+    color: var(--color-font);
+}
+
+a {
+    color: var(--color-hyperlink);
+}
+
+hr {
+    border-color: var(--color-font);
+}
+
+/* layout */
+
+html {
+    scroll-padding-top: 1.5rem;
+}
+
+#main-wrapper > * {
+max-width: 1080px;
+margin: 0 20px;
+}
+
+picture {
+    display: block;
+    max-width: 100%;
+}
+
+img,
+iframe {
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 15px 0;
+    border: none;
+}
+
+/* navbar */
+
+nav {
+    position: sticky;
+    top: 0;
+    padding-left: 20px;
+    background-color: var(--color-navbar);
+    margin-bottom: 7px;
+    z-index: 1;
+}
+
+nav a {
+    color: var(--color-font);
+    font-weight: bold;
+    padding: 2px 0;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: var(--color-hyperlink);
+}
+
+/* table of contents */
+
+.toc {
+    word-break: break-word;
+    text-align: left;
+}
+
+.toc ul {
+    padding-left: 26px;
+    margin-top: 0;
+    list-style-type: "\2726";
+}
+
+.toc li {
+    padding-left: 7px;
+}
+
+#desktop-toc {
+display: none;
+}
+
+#mobile-toc {
+margin: 0 10px 7px;
+}
+
+/* footnotes */
+
+.footnotes ol li::marker {
+    content: "[" counter(list-item) "]  ";
+}
+
+/*  */
+
+.main-page .link-to-previous-post {
+    text-align: right;
+}
+
+/* desktop-specific */
+
+@media (min-width: 800px) {
+    #main-wrapper {
+    display: grid;
+    grid-template-columns: 260px 1fr 20px;
+    width: 100%;
+    }
+
+    #left-column {
+    min-width: 220px;
+    }
+
+    #content {
+    max-width: 960px;
+    text-align: justify;
+    }
+
+    #content h1, #content h2, #content h3,
+    #content h4, #content h5, #content h6 {
+    text-align: left;
+    }
+
+    #desktop-toc {
+    position: fixed;
+    display: inline;
+    max-width: 240px;
+    height: 100%;
+    overflow: scroll;
+    margin-left: 20px;
+    padding-bottom: 34px;
+    }
+
+    #mobile-toc {
+    display: none;
+    }
+
+    .main-page #left-column hr {
+        display: none;
+    }
+
+    img, iframe {
+        max-height: 700px;
+    }
+}
+
+@media (min-width: 1100px) {
+    #main-wrapper {
+    grid-template-columns: 1fr 3fr 1fr;
+    }
+}

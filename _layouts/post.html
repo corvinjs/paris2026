@@ -1,0 +1,51 @@
+---
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="typography.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="post">
+  {% include navbar.html %}
+  <div id="desktop-toc">
+    {% include toc.html open="open"%}
+  </div>
+  <div id="main-wrapper">
+    <div id="left-column"></div>
+    <div id="content">
+      <h1>{{ page.title }}</h1>
+      <section>
+        {{ content }}
+      </section>
+      <footer>
+        <div style="display: flex; justify-content: space-between; width: 100%;">
+          {% if page.next != nil %}
+          <a href=".{{ page.next.url }}">Als nächstes: <br>{{ page.next.title }}</a>
+          {% else %}
+          <!-- Placeholder -->
+          <div></div>
+          {% endif %}
+          <div style="width: 1em"></div>
+          {% if page.previous != nil %}
+          <a href=".{{ page.previous.url }}">Davor: <br>{{ page.previous.title }}</a>
+          {% else %}
+          <!-- Placeholder -->
+          <div></div>
+          {% endif %}
+        </div>
+        <div id="mobile-toc">
+          {% include toc.html open="" %}
+        </div>
+      </footer>
+    </div>
+    <div id="right-column"></div>
+  </div>
+</body>
+
+</html>

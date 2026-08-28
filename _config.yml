@@ -1,0 +1,20 @@
+blog_title: Corvins Paris-Austausch 2026
+latest_post_is_home: true
+
+picture_tag:
+  max_dim: 1600
+  quality: 85
+  mobile_breakpoint: 768
+  desktop_slot: 1080px
+
+exclude:
+  - "*.sh"
+  - post-template.md
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: post
+      permalink: /:short_month-:day:output_ext

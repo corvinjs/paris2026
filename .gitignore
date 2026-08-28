@@ -1,5 +1,9 @@
 _site/
 assets/downsized/
+
 .obsidian/
+!.obsidian/app.json
+!.obsidian/daily-notes.json
+
 .trash/
 todo.md
