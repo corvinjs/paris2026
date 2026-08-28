@@ -9,7 +9,7 @@
     --color-background: white;
 
     /* Titelleiste */
-    --color-navbar:     #dfe;
+    --color-navbar:     #efd;
 
     /* Schriftfarbe */
     --color-font:       black;
@@ -20,6 +20,7 @@
 
 /* Schriftart */
 
+/* die beiden folgenden Blöcke ersetzen für eigene Schriftart -- die Schriften sind in diesem Repo nicht enthalten */
 @font-face {
     font-family: 'LM Sans';
     font-style: normal;
@@ -28,13 +29,13 @@
     src: url('/fonts/lmsans10-regular.woff2') format('woff2');
 }
 
-/* Bold (Weight: 700) */
+/* Bold (Weight: 700) - use Volute font */
 @font-face {
     font-family: 'LM Sans';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url('/fonts/lmsans10-bold.woff2') format('woff2');
+    src: url('/fonts/volute.regular.ttf') format('truetype');
 }
 
 body {
