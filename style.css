@@ -6,16 +6,17 @@
 /* Farben */
 :root {
     /* Seitenhintergrund */
-    --color-background: white;
+    --color-background:   white;
 
     /* Titelleiste */
-    --color-navbar:     #efd;
+    --color-navbar:       #537c4d;
+    --color-navbar-text:  white;
 
     /* Schriftfarbe */
-    --color-font:       black;
+    --color-font:         black;
 
     /* Links und Inhaltsverzeichnis */
-    --color-hyperlink:  #537c4d;
+    --color-hyperlink:    #537c4d;
 }
 
 /* Schriftart */
@@ -97,10 +98,9 @@ nav {
 }
 
 nav a {
-    color: var(--color-font);
+    color: var(--color-navbar-text);
     font-weight: bold;
     padding: 2px 0;
-    /* text-decoration: underline; */
 }
 
 nav a:hover {
