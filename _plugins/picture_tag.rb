@@ -10,6 +10,7 @@ module PictureTag
   IMAGE_REF = /assets\/[^\s"'<>]+\.(?:jpg|jpeg|png)/i.freeze
   MANIFEST_NAME = ".manifest.json"
   IMG_TAG = %r{<img\b([^>]*?\bsrc=["']([^"']+)["'][^>]*?)/?>}i
+  IMG_ATTRS_TO_DROP = /\s*(?:src|srcset|sizes|width|height)=["'][^"']*["']/i.freeze
 
   module_function
 
@@ -49,28 +50,21 @@ module PictureTag
     File.basename(rel_path, File.extname(rel_path))
   end
 
-  def output_full_jxl(site, rel_path)
-    File.join(downsized_dir(site), "#{output_stem(rel_path)}.jxl")
+  def variant_rel(rel_path, format, size)
+    if format == :jpeg && size == :full
+      rel_path
+    else
+      suffix = case [format, size]
+               when %i[jxl full] then ".jxl"
+               when %i[jxl small] then ".small.jxl"
+               when %i[jpeg small] then ".small.jpg"
+               end
+      "assets/downsized/#{output_stem(rel_path)}#{suffix}"
+    end
   end
 
-  def output_small_jxl(site, rel_path)
-    File.join(downsized_dir(site), "#{output_stem(rel_path)}.small.jxl")
-  end
-
-  def output_small_jpg(site, rel_path)
-    File.join(downsized_dir(site), "#{output_stem(rel_path)}.small.jpg")
-  end
-
-  def rel_full_jxl(rel_path)
-    "assets/downsized/#{output_stem(rel_path)}.jxl"
-  end
-
-  def rel_small_jxl(rel_path)
-    "assets/downsized/#{output_stem(rel_path)}.small.jxl"
-  end
-
-  def rel_small_jpg(rel_path)
-    "assets/downsized/#{output_stem(rel_path)}.small.jpg"
+  def variant_path(site, rel_path, format, size)
+    File.join(site.source, variant_rel(rel_path, format, size))
   end
 
   def load_manifest(site)
@@ -135,12 +129,16 @@ module PictureTag
 
   # ImageMagick 7: `magick identify …`
   # ImageMagick 6 (Ubuntu CI): standalone `identify` binary — not `convert identify`.
+  def imagemagick7?
+    @imagemagick7 ||= system("command -v magick >/dev/null 2>&1")
+  end
+
   def identify_cmd
-    @identify_cmd ||= if system("command -v magick >/dev/null 2>&1")
-                        %w[magick identify]
-                      else
-                        %w[identify]
-                      end
+    imagemagick7? ? %w[magick identify] : %w[identify]
+  end
+
+  def magick_cmd
+    imagemagick7? ? "magick" : "convert"
   end
 
   def image_dimensions(path)
@@ -159,12 +157,16 @@ module PictureTag
   end
 
   def expected_outputs(site, rel_path, entry)
-    outputs = [output_full_jxl(site, rel_path)]
+    outputs = [variant_path(site, rel_path, :jxl, :full)]
     if entry && entry["small_w"]
-      outputs << output_small_jpg(site, rel_path)
-      outputs << output_small_jxl(site, rel_path)
+      outputs << variant_path(site, rel_path, :jpeg, :small)
+      outputs << variant_path(site, rel_path, :jxl, :small)
     end
     outputs
+  end
+
+  def outputs_present?(site, rel_path, entry)
+    entry && expected_outputs(site, rel_path, entry).all? { |path| File.file?(path) }
   end
 
   def fresh?(manifest, rel_path, src_path, site)
@@ -172,15 +174,7 @@ module PictureTag
     return false unless entry
     return false unless entry["sha256"] == source_fingerprint(src_path)
 
-    expected_outputs(site, rel_path, entry).all? { |path| File.file?(path) }
-  end
-
-  def magick_cmd
-    @magick_cmd ||= if system("command -v magick >/dev/null 2>&1")
-                      "magick"
-                    else
-                      "convert"
-                    end
+    outputs_present?(site, rel_path, entry)
   end
 
   def run!(cmd)
@@ -188,11 +182,23 @@ module PictureTag
     [status.success?, (stderr.strip.empty? ? stdout.strip : stderr.strip)]
   end
 
+  def run_or_warn!(cmd, rel_path, message)
+    ok, err = run!(cmd)
+    return true if ok
+
+    Jekyll.logger.warn "PictureTag:", "#{message} for #{rel_path}: #{err}"
+    false
+  end
+
+  def encode_jxl!(site, input, output)
+    run!(["cjxl", input, output, "--lossless_jpeg=0", "-q", quality(site).to_s, "--quiet"])
+  end
+
   def convert_image!(site, rel_path)
     src = File.join(site.source, rel_path)
-    full_jxl = output_full_jxl(site, rel_path)
-    small_jpg = output_small_jpg(site, rel_path)
-    small_jxl = output_small_jxl(site, rel_path)
+    full_jxl = variant_path(site, rel_path, :jxl, :full)
+    small_jpg = variant_path(site, rel_path, :jpeg, :small)
+    small_jxl = variant_path(site, rel_path, :jxl, :small)
     oriented = File.join(downsized_dir(site), "#{output_stem(rel_path)}.oriented.jpg")
     FileUtils.mkdir_p(downsized_dir(site))
 
@@ -207,13 +213,9 @@ module PictureTag
     small_w = full_w
 
     begin
-      ok, err = run!([magick_cmd, src, "-auto-orient", "-strip", oriented])
-      unless ok
-        Jekyll.logger.warn "PictureTag:", "magick orient failed for #{rel_path}: #{err}"
-        return nil
-      end
+      return nil unless run_or_warn!([magick_cmd, src, "-auto-orient", "-strip", oriented], rel_path, "magick orient failed")
 
-      ok, err = run!(["cjxl", oriented, full_jxl, "--lossless_jpeg=0", "-q", quality(site).to_s, "--quiet"])
+      ok, err = encode_jxl!(site, oriented, full_jxl)
       unless ok
         Jekyll.logger.warn "PictureTag:", "cjxl failed for #{rel_path}: #{err}"
         return nil
@@ -221,17 +223,12 @@ module PictureTag
 
       if small
         resize = "#{max_dim(site)}x#{max_dim(site)}>"
-        ok, err = run!([magick_cmd, oriented, "-resize", resize, "-quality", quality(site).to_s, small_jpg])
-        unless ok
-          Jekyll.logger.warn "PictureTag:", "magick failed for #{rel_path}: #{err}"
-          return nil
-        end
-        small_dims = image_dimensions(small_jpg)
-        if small_dims
-          small_w, _small_h = small_dims
-        end
+        return nil unless run_or_warn!([magick_cmd, oriented, "-resize", resize, "-quality", quality(site).to_s, small_jpg], rel_path, "magick failed")
 
-        ok, err = run!(["cjxl", small_jpg, small_jxl, "--lossless_jpeg=0", "-q", quality(site).to_s, "--quiet"])
+        small_dims = image_dimensions(small_jpg)
+        small_w, = small_dims if small_dims
+
+        ok, err = encode_jxl!(site, small_jpg, small_jxl)
         unless ok
           Jekyll.logger.warn "PictureTag:", "cjxl small failed for #{rel_path}: #{err}"
           return nil
@@ -246,11 +243,10 @@ module PictureTag
 
     entry = {
       "sha256" => source_fingerprint(src),
-      "full_w" => full_w
+      "full_w" => full_w,
+      "full_h" => full_h
     }
-    if small
-      entry["small_w"] = small_w
-    end
+    entry["small_w"] = small_w if small
     entry
   end
 
@@ -264,6 +260,21 @@ module PictureTag
       next if registered.include?(rel)
 
       site.static_files << Jekyll::StaticFile.new(site, site.source, "assets/downsized", name)
+    end
+  end
+
+  def backfill_dimensions!(site, manifest)
+    manifest.each_key do |rel_path|
+      entry = manifest[rel_path]
+      next if entry["full_w"] && entry["full_h"]
+
+      src = File.join(site.source, rel_path)
+      next unless File.file?(src)
+
+      dims = image_dimensions(src)
+      next unless dims
+
+      entry["full_w"], entry["full_h"] = dims
     end
   end
 
@@ -289,6 +300,7 @@ module PictureTag
       end
     end
 
+    backfill_dimensions!(site, manifest)
     save_manifest(site, manifest)
     register_downsized_files!(site)
     $stdout.puts "==> PictureTag: converted #{converted}, skipped #{skipped}, failed #{failed}"
@@ -298,21 +310,21 @@ module PictureTag
     "#{url_for(site, rel_path)} #{width}w"
   end
 
-  def build_srcset(site, rel_path, entry, type)
+  def build_srcset(site, rel_path, entry, format)
     parts = []
     if entry["small_w"]
-      small_rel = type == :jxl ? rel_small_jxl(rel_path) : rel_small_jpg(rel_path)
-      parts << srcset_entry(site, small_rel, entry["small_w"])
+      parts << srcset_entry(site, variant_rel(rel_path, format, :small), entry["small_w"])
     end
-    full_rel = type == :jxl ? rel_full_jxl(rel_path) : rel_path
-    parts << srcset_entry(site, full_rel, entry["full_w"])
+    parts << srcset_entry(site, variant_rel(rel_path, format, :full), entry["full_w"])
     parts.join(", ")
   end
 
-  def outputs_exist?(site, rel_path, entry)
-    return false unless entry
+  def size_attrs(entry)
+    w = entry["full_w"]
+    h = entry["full_h"]
+    return "" unless w && h
 
-    expected_outputs(site, rel_path, entry).all? { |path| File.file?(path) }
+    %( width="#{w}" height="#{h}")
   end
 
   def wrap_img_tag(site, match, manifest)
@@ -322,27 +334,25 @@ module PictureTag
     return tag unless rel && whitelisted?(rel)
 
     entry = manifest[rel]
-    return tag unless outputs_exist?(site, rel, entry)
+    return tag unless outputs_present?(site, rel, entry)
 
     sizes = sizes_attr(site)
     jxl_srcset = build_srcset(site, rel, entry, :jxl)
     jpeg_srcset = build_srcset(site, rel, entry, :jpeg)
-    img_src = entry["small_w"] ? url_for(site, rel_small_jpg(rel)) : url_for(site, rel)
+    img_rel = entry["small_w"] ? variant_rel(rel, :jpeg, :small) : rel
 
     <<~HTML.strip
       <picture>
         <source type="image/jxl" srcset="#{jxl_srcset}" sizes="#{sizes}">
         <source type="image/jpeg" srcset="#{jpeg_srcset}" sizes="#{sizes}">
-        <img src="#{img_src}" srcset="#{jpeg_srcset}" sizes="#{sizes}"#{img_attrs_from(tag)} />
+        <img src="#{url_for(site, img_rel)}" srcset="#{jpeg_srcset}" sizes="#{sizes}"#{size_attrs(entry)}#{img_attrs_from(tag)} />
       </picture>
     HTML
   end
 
   def img_attrs_from(tag)
     attrs = tag.sub(%r{\A<img\b}i, "").sub(%r{/?>\z}, "")
-    attrs = attrs.gsub(/\s*src=["'][^"']*["']/i, "")
-    attrs = attrs.gsub(/\s*srcset=["'][^"']*["']/i, "")
-    attrs = attrs.gsub(/\s*sizes=["'][^"']*["']/i, "")
+    attrs = attrs.gsub(IMG_ATTRS_TO_DROP, "")
     attrs = attrs.strip
     attrs.empty? ? "" : " #{attrs}"
   end
@@ -370,10 +380,8 @@ module PictureTag
   end
 end
 
-Jekyll::Hooks.register :documents, :post_render do |doc|
-  doc.output = PictureTag.wrap_images(doc.output, doc.site)
-end
-
-Jekyll::Hooks.register :pages, :post_render do |page|
-  page.output = PictureTag.wrap_images(page.output, page.site)
+%i[documents pages].each do |type|
+  Jekyll::Hooks.register type, :post_render do |doc|
+    doc.output = PictureTag.wrap_images(doc.output, doc.site)
+  end
 end
