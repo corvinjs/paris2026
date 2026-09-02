@@ -104,7 +104,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--color-hyperlink);
+    text-decoration: underline;
 }
 
 /* table of contents */
