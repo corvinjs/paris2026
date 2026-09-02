@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="{{ site.lang | default: 'de' }}">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.blog_title }}</title>
+  {% include seo.html %}
   <link rel="stylesheet" href="typography.css">
   <link rel="stylesheet" href="style.css">
 </head>
