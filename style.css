@@ -9,14 +9,14 @@
     --color-background:   white;
 
     /* Titelleiste */
-    --color-navbar:       #537c4d;
+    --color-navbar:       hsl(287, 22%, 41%);
     --color-navbar-text:  white;
 
     /* Schriftfarbe */
     --color-font:         black;
 
     /* Links und Inhaltsverzeichnis */
-    --color-hyperlink:    #537c4d;
+    --color-hyperlink:    hsl(287, 70%, 50%);
 }
 
 /* Schriftart */
