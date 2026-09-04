@@ -16,7 +16,7 @@
     --color-font:         black;
 
     /* Links und Inhaltsverzeichnis */
-    --color-hyperlink:    hsl(287, 70%, 50%);
+    --color-hyperlink:    hsl(287, 65%, 50%);
 }
 
 /* Schriftart */
@@ -84,6 +84,11 @@ iframe {
     display: block;
     padding: 15px 0;
     border: none;
+}
+
+p:has(:is(img,picture) + em) {
+    /* Image subtitle */
+    margin-bottom: 2rem;
 }
 
 /* navbar */
