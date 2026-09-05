@@ -28,4 +28,5 @@ picture_tag:
   max_dim: 1600
   quality: 85
   mobile_breakpoint: 768
-  desktop_slot: 1080px
+  desktop_slot: 960px
+  desktop_width: 960
