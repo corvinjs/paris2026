@@ -5,6 +5,7 @@ lang: de
 locale: de_DE
 
 fallback-description: Der Blog für die Daheimgebliebenen
+home_description: Wöchentliche Updates zu Corvins Erlebnissen in Paris
 fallback-image: favicon.ico
 
 url: https://corvin.sydow.ch
@@ -13,6 +14,7 @@ baseurl: /paris2026
 exclude:
   - "*.sh"
   - post-template.md
+  - pages/home.md
 
 defaults:
   - scope:

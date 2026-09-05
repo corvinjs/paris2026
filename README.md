@@ -7,6 +7,6 @@
   - `false` : die Startseite zeigt den Inhalt von `pages/home.md` (dort dann deinen Text reinschreiben)
 - Ändere die Farben: Öffne `style.css` in einem Texteditor und bearbeite den ersten Abschnitt.
 
-- Falls du nicht auf Deutsch schreibst: Übersetze `latest.html` (Texte: "Aktueller Post", "Davor"), `_includes/toc.html` (Text: "Alle Posts") und `_layouts/post.html` (Texte: "Als Nächstes", "Davor").
+- Falls du nicht auf Deutsch schreibst: Übersetze `index.html` (Texte: "Aktueller Post", "Davor"), `_includes/toc.html` (Text: "Alle Posts") und `_layouts/post.html` (Texte: "Als Nächstes", "Davor").
 
 Öffne den Ordner als Vault in Obsidian, und erstelle deine Posts als "tägliche Notizen". Synchronisiere deine Änderungen zu Github, und die Website wird automatisch generiert.

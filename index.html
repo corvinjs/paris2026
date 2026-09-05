@@ -1,7 +1,55 @@
 ---
 ---
-{% if site.latest_post_is_home %}
-  {% include latest.html %}
-{% else %}
-  {% include home.html %}
-{% endif %}
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'de' }}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% include seo.html %}
+  <link rel="stylesheet" href="typography.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="main-page">
+  {% include navbar.html %}
+  <div id="desktop-toc">
+    {% include toc.html open="open"%}
+  </div>
+  <div id="main-wrapper">
+    <div id="left-column">
+      <!-- Placeholder for 3-column layout -->
+    </div>
+    <div id="content">
+      {% if site.latest_post_is_home %}
+      <div id="mobile-toc">
+        {% include toc.html open="open"%}
+      </div>
+      <hr>
+      <i>Aktueller Post</i>
+      <h1>{{ site.posts.first.title }}</h1>
+      <section>
+        {{ site.posts.first.content }}
+      </section>
+      {% if site.posts.size >= 2 %}
+      <p class="link-to-previous-post">
+        <a href=".{{ site.posts[1].url }}">Davor: <br>{{ site.posts[1].title }}</a>
+      </p>
+      {% endif %}
+      {% else %}
+      <section>
+        {% capture home %}{% include_relative pages/home.md %}{% endcapture %}
+        {{ home | markdownify }}
+      </section>
+      <div id="mobile-toc">
+        {% include toc.html open="open" %}
+      </div>
+      {% endif %}
+    </div>
+    <div id="right-column">
+      <!-- Placeholder for 3-column layout -->
+    </div>
+  </div>
+</body>
+
+</html>
