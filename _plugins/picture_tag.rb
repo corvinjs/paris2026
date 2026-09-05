@@ -38,10 +38,6 @@ module PictureTag
     (config(site)["desktop_width"] || 960).to_i
   end
 
-  def desktop_slot(site)
-    config(site)["desktop_slot"] || "1080px"
-  end
-
   def downsized_dir(site)
     File.join(site.source, "assets", "downsized")
   end
@@ -55,18 +51,16 @@ module PictureTag
   end
 
   def variant_rel(rel_path, format, size)
-    if format == :jpeg && size == :full
-      rel_path
-    else
-      suffix = case [format, size]
-    when %i[jxl full]      then ".jxl"
-    when %i[jxl small]     then ".small.jxl"
-    when %i[jpeg small]    then ".small.jpg"
-    when %i[jxl desktop]   then ".desktop.jxl"
-    when %i[jpeg desktop]  then ".desktop.jpg"
-    end
-    "assets/downsized/#{output_stem(rel_path)}#{suffix}"
+    return rel_path if format == :jpeg && size == :full
+
+    suffix = case [format, size]
+  when %i[jxl full]     then ".jxl"
+  when %i[jxl small]    then ".small.jxl"
+  when %i[jpeg small]   then ".small.jpg"
+  when %i[jxl desktop]  then ".desktop.jxl"
+  when %i[jpeg desktop] then ".desktop.jpg"
   end
+  "assets/downsized/#{output_stem(rel_path)}#{suffix}"
 end
 
 def variant_path(site, rel_path, format, size)
@@ -107,26 +101,18 @@ end
 def normalize_asset_path(src, site)
   path = src.sub(%r{\A/}, "")
   base = site.baseurl.to_s.sub(%r{\A/}, "").sub(%r{/\z}, "")
-  if !base.empty? && path.start_with?("#{base}/")
-    path = path.sub(%r{\A#{Regexp.escape(base)}/}, "")
-  end
+  path = path.sub(%r{\A#{Regexp.escape(base)}/}, "") if !base.empty? && path.start_with?("#{base}/")
   path if path.start_with?("assets/")
 end
 
 def url_for(site, rel_path)
   rel = rel_path.sub(%r{\A/}, "")
   base = site.baseurl.to_s.sub(%r{/\z}, "")
-  if base.empty? || base == "/"
-    rel
-  else
-    "#{base}/#{rel}"
-  end
+  base.empty? ? "/#{rel}" : "#{base}/#{rel}"
 end
 
 def sizes_attr(site)
-  bp = mobile_breakpoint(site)
-  slot = desktop_slot(site)
-  "(max-width: #{bp}px) 100vw, #{slot}"
+  "(max-width: #{mobile_breakpoint(site)}px) 100vw, #{desktop_width(site)}px"
 end
 
 def source_fingerprint(path)
@@ -136,7 +122,8 @@ end
 # ImageMagick 7: `magick identify …`
 # ImageMagick 6 (Ubuntu CI): standalone `identify` binary — not `convert identify`.
 def imagemagick7?
-  @imagemagick7 ||= system("command -v magick >/dev/null 2>&1")
+  @imagemagick7 = system("command -v magick >/dev/null 2>&1") if @imagemagick7.nil?
+  @imagemagick7
 end
 
 def identify_cmd
@@ -213,6 +200,8 @@ def convert_image!(site, rel_path)
   full_jxl = variant_path(site, rel_path, :jxl, :full)
   small_jpg = variant_path(site, rel_path, :jpeg, :small)
   small_jxl = variant_path(site, rel_path, :jxl, :small)
+  desktop_jpg = variant_path(site, rel_path, :jpeg, :desktop)
+  desktop_jxl = variant_path(site, rel_path, :jxl, :desktop)
   oriented = File.join(downsized_dir(site), "#{output_stem(rel_path)}.oriented.jpg")
   FileUtils.mkdir_p(downsized_dir(site))
 
@@ -223,13 +212,10 @@ def convert_image!(site, rel_path)
   end
 
   full_w, full_h = dims
-  small   = needs_small?(full_w, full_h, site)
+  small = needs_small?(full_w, full_h, site)
   desktop = needs_desktop?(full_w, site)
-  small_w   = full_w
+  small_w = full_w
   desktop_w = full_w
-
-  desktop_jpg = variant_path(site, rel_path, :jpeg, :desktop)
-  desktop_jxl = variant_path(site, rel_path, :jxl,  :desktop)
 
   begin
     return nil unless run_or_warn!([magick_cmd, src, "-auto-orient", "-strip", oriented], rel_path, "magick orient failed")
@@ -278,11 +264,11 @@ def convert_image!(site, rel_path)
   end
 
   entry = {
-    "sha256"  => source_fingerprint(src),
-    "full_w"  => full_w,
-    "full_h"  => full_h
+    "sha256" => source_fingerprint(src),
+    "full_w" => full_w,
+    "full_h" => full_h
   }
-  entry["small_w"]   = small_w   if small
+  entry["small_w"] = small_w if small
   entry["desktop_w"] = desktop_w if desktop
   entry
 end
@@ -347,16 +333,16 @@ def srcset_entry(site, rel_path, width)
   "#{url_for(site, rel_path)} #{width}w"
 end
 
+# Ascending by width. The full-resolution source is always included, even
+# when small/desktop variants exist: `sizes` caps the CSS width, but on a
+# high-DPI screen the browser still needs more physical pixels than that,
+# so dropping the largest candidate would cap sharpness on retina displays.
 def build_srcset(site, rel_path, entry, format)
-  parts = []
-  if entry["small_w"]
-    parts << srcset_entry(site, variant_rel(rel_path, format, :small), entry["small_w"])
-  end
-  if entry["desktop_w"]
-    parts << srcset_entry(site, variant_rel(rel_path, format, :desktop), entry["desktop_w"])
-  end
-  parts << srcset_entry(site, variant_rel(rel_path, format, :full), entry["full_w"])
-  parts.join(", ")
+  candidates = []
+  candidates << [entry["small_w"], variant_rel(rel_path, format, :small)] if entry["small_w"]
+  candidates << [entry["desktop_w"], variant_rel(rel_path, format, :desktop)] if entry["desktop_w"]
+  candidates << [entry["full_w"], variant_rel(rel_path, format, :full)]
+  candidates.sort_by(&:first).map { |w, rel| srcset_entry(site, rel, w) }.join(", ")
 end
 
 def size_attrs(entry)
