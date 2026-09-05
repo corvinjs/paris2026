@@ -1,7 +1,7 @@
 ## Erstelle deinen eigenen Blog
 - Clone das Repository in deinen Github-Account und von dort aus auf deinen lokalen Rechner
 - Lösche alle Dateien in `_posts/` und `assets/`
-- Bearbeite den Titel: Öffne `_config.yml` in einem Texteditor und ändere den `blog_title`
+- Bearbeite den Titel: Öffne `_config.yml` in einem Texteditor und ändere den `title`
 - Wähle deine Startseite: Stelle in `_config.yml` via `latest_post_is_home` ein:
   - `true` : die Startseite zeigt den neusten Beitrag
   - `false` : die Startseite zeigt den Inhalt von `pages/home.md` (dort dann deinen Text reinschreiben)

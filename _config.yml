@@ -1,18 +1,14 @@
-blog_title: Corvins Paris-Austausch 2026
 title: Corvins Paris-Austausch 2026
-lang: de
-locale: de_DE
-fallback-description: Der Blog für die Daheimgebliebenen
-fallback-image: favicon.ico
-url: https://corvin.sydow.ch
-baseurl: /paris2026
 latest_post_is_home: true
 
-picture_tag:
-  max_dim: 1600
-  quality: 85
-  mobile_breakpoint: 768
-  desktop_slot: 1080px
+lang: de
+locale: de_DE
+
+fallback-description: Der Blog für die Daheimgebliebenen
+fallback-image: favicon.ico
+
+url: https://corvin.sydow.ch
+baseurl: /paris2026
 
 exclude:
   - "*.sh"
@@ -25,3 +21,9 @@ defaults:
     values:
       layout: post
       permalink: /:short_month-:day:output_ext
+
+picture_tag:
+  max_dim: 1600
+  quality: 85
+  mobile_breakpoint: 768
+  desktop_slot: 1080px
