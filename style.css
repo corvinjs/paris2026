@@ -89,6 +89,8 @@ iframe {
     max-width: 100%;
 }
 
+audio { min-width: 80%; }
+
 p:has(:is(img,picture,video,audio) + em) {
     /* Image subtitle */
     margin-bottom: 2rem;
