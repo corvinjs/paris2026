@@ -77,6 +77,8 @@ picture {
 }
 
 img,
+video,
+audio,
 iframe {
     max-height: 600px;
     margin-left: auto;
@@ -84,9 +86,10 @@ iframe {
     display: block;
     padding: 15px 0;
     border: none;
+    max-width: 100%;
 }
 
-p:has(:is(img,picture) + em) {
+p:has(:is(img,picture,video,audio) + em) {
     /* Image subtitle */
     margin-bottom: 2rem;
 }
@@ -190,7 +193,7 @@ margin: 0 10px 7px;
         display: none;
     }
 
-    img, iframe {
+    img, video, audio, iframe {
         max-height: 700px;
     }
 }

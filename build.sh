@@ -12,7 +12,7 @@ if command -v apt-get >/dev/null; then
     log "Installing imagemagick and libjxl-tools"
     export DEBIAN_FRONTEND=noninteractive
     apt_log="$(mktemp)"
-    if timeout 120s bash -c 'sudo apt-get update && sudo apt-get install -y -o Dpkg::Use-Pty=0 imagemagick libjxl-tools' >"$apt_log" 2>&1; then
+    if timeout 240s bash -c 'sudo apt-get update && sudo apt-get install -y -o Dpkg::Use-Pty=0 imagemagick libjxl-tools' >"$apt_log" 2>&1; then
       rm -f "$apt_log"
     else
       status=$?
