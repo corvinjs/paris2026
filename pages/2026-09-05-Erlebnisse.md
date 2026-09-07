@@ -29,7 +29,7 @@ Ab 21 Uhr tritt ein Elektrojazz-Duo am Kanal de l'Ourcq auf. "Trompete & Granula
 ![](assets/electrojazz.mp4)
 *Dein Lautsprecher ist nicht kaputt.*
 
-Für den späteren Abend wollen einige andere Erasmus Studenten an eine improvisierte Party gehen, die gemäss [Angekündigung](https://www.instagram.com/p/DcjHiobAmaC/) an einem geheimen Ort an der Seine stattfinden soll. Natürlich treffen wir uns am falschen Ort und warten zwischen den dortigen Partybooten erstmal eine Dreiviertelstunde, bis alle eingetrudelt sind.
+Für den späteren Abend wollen einige andere Erasmus Studenten an eine improvisierte Party gehen, die gemäss [Ankündigung](https://www.instagram.com/p/DcjHiobAmaC/) an einem geheimen Ort an der Seine stattfinden soll. Natürlich treffen wir uns am falschen Ort und warten zwischen den dortigen Partybooten erstmal eine Dreiviertelstunde, bis alle eingetrudelt sind.
 
 ![](assets/barapapa_264.mp4)
 *Hong Kong, Hanoi, Quai de la Rapée: Überall läuft die gleiche Musik.*

@@ -1,11 +1,14 @@
 {%- assign canonical_url = page.url | absolute_url -%}
-{%- assign on_latest_home = site.latest_post_is_home and page.url == "/" and site.posts.size > 0 -%}
+{%- assign on_latest_home = false -%}
+{%- if site.latest_post_is_home and page.url == "/" and site.posts.size > 0 -%}
+{%- assign on_latest_home = true -%}
+{%- endif -%}
 {%- assign seo_page = page -%}
 {%- if on_latest_home -%}
 {%- assign seo_page = site.posts.first -%}
 {%- endif -%}
 {%- if on_latest_home -%}
-{%- assign seo_description = "Aktuell: " | append: seo_page.title -%}
+{%- assign seo_description = "Aktuell: " | append: site.posts.first.title -%}
 {%- elsif page.url == "/" -%}
 {%- assign seo_description = site.home_description | default: site["fallback-description"] -%}
 {%- else -%}
