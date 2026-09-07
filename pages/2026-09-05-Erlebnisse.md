@@ -3,6 +3,7 @@ title: Couscous & Ultraschall
 layout: post
 permalink: /Sep-05.html
 description: Ein Samstag, aber ohne Hausaufgaben :)
+image: assets/sep-05.jpg
 ---
 ![](assets/danseurs.ogg)
 
