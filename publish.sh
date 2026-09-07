@@ -6,7 +6,7 @@ git add . >/dev/null 2>&1
 
 # Only commit if there are actual changes staged
 if ! git diff --cached --quiet; then
-    git commit -m "Auto-Update" -q >/dev/null 2>&1
+    git commit -m "still alive" -q >/dev/null 2>&1
     echo Created new commit
 fi
 
