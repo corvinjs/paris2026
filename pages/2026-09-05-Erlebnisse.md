@@ -17,10 +17,11 @@ In meinem Zimmer steht eine Reihe französischer Schulbuch-Klassiker, die mich j
 
 Im Restaurant nebenan tüftle ich am Blog. Einsamkeit kommt keine auf, obwohl im Hintergrund eine Playlist aus wehmütigen Chansons läuft. Eine Frau am Tisch nebenan scheint auf einem Zeichenblock andere Gäste im Lokal zu skizzieren.
 
-![](sync-ignore/20260905_195923.jpg)
+
+![](assets/20260905_195923.jpg)
 *Der Kellner stattet mich mit ganzen vier grossen Löffeln aus.*
 
-![](sync-ignore/20260905_205353.jpg)
+![](assets/20260905_205353.jpg)
 *Die Konzert-Location ist unmittelbar links neben diesem Bild.*
 
 Ab 21 Uhr tritt ein Elektrojazz-Duo am Kanal de l'Ourcq auf. "Trompete & Granularsynthesizer" klingt erst einmal spannend. Das Konzert eröffnet mit elektrischen Klängen ohne Rythmus, ähnlich dem Intro eines DJ-Sets, so als begänne in der nächsten Sekunde ein mitreissender Beat. Aber der Drop kommt nicht. Stattdessen folgen 10 Minuten von penetrantem Zirpen und schmerzhaften Scheppergeräuschen. Zur Untermalung flimmern Schemen auf einem Schirm, die an Ultraschall-Aufnahmen erinnern. Auch die beiden anderen Stücke haben keinerlei Rythmus und bewegen sich zwischen *Neuer Musik*, Mikrofonfeedback und [*Everywhere at the End of time*](https://www.youtube.com/watch?v=yQ8QfsAZGDo&list=PLkbxNibXiLx_ak8IuhZiutd2Fxe7_KAon&index=44). Meine Kollegin Simone würde hier sicher eine tiefere Bedeutung erkennen, für mich handelt es sich aber bloss um die Vertonung der Albträume eines Ungeborenen im Mutterleib, das vor der feindseligen Aussenwelt erschauert; oder es ist eine Protestaktion gegen die Lärmverschmutzung der Meere durch Schiffsschrauben. Ich siniere über treffende Formulierungen nach, und schätze mich glücklich, dass kein Mitstudent meiner Einladung gefolgt ist. Mit einem zweiten Bier wäre das Konzert vielleicht richtig gut gewesen.
