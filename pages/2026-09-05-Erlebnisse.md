@@ -8,7 +8,7 @@ description: Ein Samstag, aber ohne Hausaufgaben :)
 
 Es ist der letzte Samstag, bevor der Ernst des Lebens wieder zuschlägt. Am Montag geht der eigentliche Unterricht los. Auf einer freien Fläche bei La Villette treffe ich eine Gruppe junger Männer, die im Kreis einen afrikanischen Tanz üben. Musik machen sie mit Trommeln, dem Teller von einem Hi-Hat und zwei Mikrophonen.
 
-Der Parc de la Villette ist heute sehr belebt. Es läuft gerade eine Reihe von Jazzkonzerten, darunter auch kostenlose, die direkt am Canal de l'Ourcq stattfinden. Das möchte ich mir heut Abend nicht entgehen lassen. Doch zunächst gilt es, ein neues Stadtviertel zu erschliessen.
+Der Parc de la Villette ist heute sehr belebt. Es läuft gerade eine Reihe von Jazzkonzerten, darunter auch kostenlose, die direkt am Canal de l'Ourcq stattfinden. Das möchte ich mir heut Abend nicht entgehen lassen. Doch zunächst gilt es, ein neues Stadtviertel zu erkunden.
 
 ![](assets/hebebruecke.mp4)
 *Das Rad über die Stufen zu tragen, ist wesentlich schneller, als die Viertelstunde zu warten.*
