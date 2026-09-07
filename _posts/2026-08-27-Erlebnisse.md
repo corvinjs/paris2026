@@ -37,7 +37,7 @@ Ich bin bereits stolz auf meinen Orientierungs-Instinkt, als ich es geradlinig o
 In der riesigen Stadt habe ich 4 Anhaltspunkte:
 - Eiffelturm: zu weit westlich
 - Sacre Cœur: zu weit nördlich
-- Kölllner Dom: zu weit östlich
+- Köllner Dom: zu weit östlich
 - Bibliothèque nationale François Mitterand: zu weit südlich
 
 ![649](assets/mitterand.jpg)

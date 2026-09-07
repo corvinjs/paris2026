@@ -15,6 +15,9 @@ exclude:
   - "*.sh"
   - post-template.md
   - pages/home.md
+  - README.md
+  - cache-paths
+  - sync-ignore/
 
 defaults:
   - scope:
