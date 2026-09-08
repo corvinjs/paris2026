@@ -101,7 +101,10 @@ p:has(:is(img,picture,video,audio) + em) {
 nav {
     position: sticky;
     top: 0;
-    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
     background-color: var(--color-navbar);
     margin-bottom: 7px;
     z-index: 1;
@@ -115,6 +118,16 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+nav .rss-link {
+    opacity: 0.65;
+    line-height: 0;
+}
+
+nav .rss-link:hover {
+    opacity: 1;
+    text-decoration: none;
 }
 
 /* table of contents */

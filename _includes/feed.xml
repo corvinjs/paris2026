@@ -1,0 +1,10 @@
+{% for post in site.posts %}
+    <item>
+      <title>{{ post.title | xml_escape }}</title>
+      <link>{{ post.url | absolute_url }}</link>
+      <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <description>{{ post.description | default: post.excerpt | strip_html | xml_escape }}</description>
+      <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
+    </item>
+{% endfor %}
