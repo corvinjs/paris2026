@@ -103,13 +103,14 @@ nav {
     top: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
     background-color: var(--color-navbar);
     margin-bottom: 7px;
     z-index: 1;
 }
 
-nav .nav-start {
+nav .nav-icons {
     display: flex;
     align-items: center;
     gap: 12px;
