@@ -103,11 +103,16 @@ nav {
     top: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0 20px;
     background-color: var(--color-navbar);
     margin-bottom: 7px;
     z-index: 1;
+}
+
+nav .nav-start {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 nav a {
@@ -120,12 +125,12 @@ nav a:hover {
     text-decoration: underline;
 }
 
-nav .rss-link {
+nav .nav-icon {
     opacity: 0.65;
     line-height: 0;
 }
 
-nav .rss-link:hover {
+nav .nav-icon:hover {
     opacity: 1;
     text-decoration: none;
 }
