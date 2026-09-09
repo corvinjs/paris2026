@@ -62,7 +62,7 @@ Auf der Suche nach den Sporthallen verirren wir uns im ABC-Gebäude. Obwohl jede
 ![](assets/su-backrooms.jpg)
 *Simone in den Backrooms der Sorbonne Université.*
 
-Wir entdecken noch die Geologie-Bibliothek, wo ein Schweigen herrscht, wie es nur Steine beherrschen können; einen riesigen Aufenthaltsraum, in dem niemand ist; ein 8-stöckiges Treppenhaus und den Hinterausgang. Viel Leute sind in dieser Vor-Rentrée-Woche noch nicht unterwegs.
+Wir entdecken noch die Geologie-Bibliothek, wo ein Schweigen herrscht, wie es nur Steine beherrschen können; einen riesigen Aufenthaltsraum, in dem niemand ist; ein 8-stöckiges Treppenhaus und den Hinterausgang. Viel Leute sind in dieser Vor-Rentrée-Woche noch nicht unterwegs. Auch die akademische Herausforderung kommt erst noch.
 
 ![](assets/aug-31-1200.jpg)
 *Das Treppenhaus in Turm 46.*

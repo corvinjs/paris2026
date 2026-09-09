@@ -5,6 +5,7 @@ permalink: /:short_month-:day:output_ext
 ---
 - Apéro
 - Sticker
+- Nachmittagswarten
 - Mensa
 - Türöffner
 - Lagrange
