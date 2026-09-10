@@ -106,7 +106,7 @@ nav {
     justify-content: space-between;
     padding: 0 20px;
     background-color: var(--color-navbar);
-    margin-bottom: 7px;
+    margin-bottom: 11px;
     z-index: 1;
 }
 
@@ -154,11 +154,11 @@ nav .nav-icon:hover {
 }
 
 #desktop-toc {
-display: none;
+    display: none;
 }
 
 #mobile-toc {
-margin: 0 10px 7px;
+    margin: 0 0 7px;
 }
 
 /* footnotes */

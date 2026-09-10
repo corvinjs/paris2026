@@ -6,3 +6,4 @@ permalink: /:short_month-:day:output_ext
 - CROUS
 - CIUP
 - Frust
+![](assets/Pasted%20image%2020260910151524.png)
