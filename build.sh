@@ -44,20 +44,22 @@ fi
 export GEM_HOME="$HOME/.gems"
 export PATH="$GEM_HOME/bin:$PATH"
 
-if ! command -v bundle >/dev/null; then
+BUNDLER_VERSION="4.0.20"
+
+if ! bundle "_${BUNDLER_VERSION}_" --version >/dev/null 2>&1; then
   log "Installing Bundler"
-  gem install --no-document bundler
+  gem install --no-document bundler --version "$BUNDLER_VERSION"
 fi
 
 # Keep installed gems inside the project so the build cache can retain them.
 # The local Bundler setting also makes subsequent commands such as
 # `bundle exec jekyll serve` use the same gems outside this script.
-bundle config set --local path .gems
+bundle "_${BUNDLER_VERSION}_" config set --local path .gems
 
-if ! bundle check >/dev/null 2>&1; then
+if ! bundle "_${BUNDLER_VERSION}_" check >/dev/null 2>&1; then
   log "Installing Ruby dependencies"
-  bundle install --jobs 4 --retry 3
+  bundle "_${BUNDLER_VERSION}_" install --jobs 4 --retry 3
 fi
 
 log "Building Jekyll site (baseurl=${BASE_URL})"
-JEKYLL_ENV=production bundle exec jekyll build --baseurl "$BASE_URL" --quiet
+JEKYLL_ENV=production bundle "_${BUNDLER_VERSION}_" exec jekyll build --baseurl "$BASE_URL" --quiet
