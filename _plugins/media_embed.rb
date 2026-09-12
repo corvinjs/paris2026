@@ -82,10 +82,10 @@ module MediaEmbed
     source = File.join(site.source, rel_path)
     output = thumbnail_path(site, rel_path)
     token = "#{Process.pid}.#{Thread.current.object_id}"
-    temporary = "#{output}.tmp.#{token}"
+    temporary = "#{output}.tmp.#{token}.jpg"
     FileUtils.mkdir_p(File.dirname(output))
     stdout, stderr, status = Open3.capture3(
-      "ffmpegthumbnailer", "-i", source, "-o", temporary, "-s", "0", "-t", "0"
+      "ffmpegthumbnailer", "-i", source, "-o", temporary, "-s", "0", "-t", "0", "-q5"
     )
     unless status.success? && File.file?(temporary) && File.size(temporary).positive?
       detail = (stderr.strip.empty? ? stdout.strip : stderr.strip)
