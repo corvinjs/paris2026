@@ -1,4 +1,4 @@
-<details {{ include.open }} class="toc"  onToggle="/* grr. almost made a JS-free website */ if(!this._ready){this._ready=true;return} if(this.open) this.scrollIntoView({behavior:'smooth'})">
+<details {{ include.open }} class="toc"{% unless page.name == "index.html" and site.latest_post_is_home %} onToggle="/* grr. almost made a JS-free website */ if(!this._ready){this._ready=true;return} if(this.open) this.scrollIntoView({behavior:'smooth'})"{% endunless %}>
     <summary>Alle Posts</summary>
     <ul>
       {% for post in site.posts reversed %}
