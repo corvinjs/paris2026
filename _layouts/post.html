@@ -8,6 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="typography.css">
   <link rel="stylesheet" href="style.css">
+  {% for resource in site.preload %}
+  <link rel="preload" href="{{ resource.href }}" as="{{ resource.as }}" crossorigin="{{ resource.crossorigin }}">
+  {% endfor %}
   {% include seo.html %}
 </head>
 

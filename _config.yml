@@ -11,6 +11,14 @@ fallback-image: assets/share-card.jpg
 url: https://corvin.sydow.ch
 baseurl: /paris2026
 
+preload:
+  - href: /fonts/lmsans10-regular.woff2
+    as: font
+    crossorigin: anonymous
+  - href: /fonts/LTSuperiorSerif-Bold.woff
+    as: font
+    crossorigin: anonymous
+
 exclude:
   - "*.sh"
   - post-template.md
