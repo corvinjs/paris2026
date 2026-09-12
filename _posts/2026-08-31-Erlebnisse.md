@@ -2,7 +2,7 @@
 title: Bohrinseln & Backrooms
 layout: post
 permalink: /:short_month-:day:output_ext
-image: assets/aug-31-1200.jpg
+image: assets/aug-31-1200-fr.jpg
 description: Mein erster Schultag an der Sorbonne Université
 ---
 An meinem ersten Schultag probiere ich einen neuen Schulweg aus, komme vom Kurs ab, und finde mich auf dem Place de la Concorde wieder. Euphorisch ob der Erkenntnis, dass somit alle Monumente der Innenstadt auf meinem Schulweg liegen können, hetze ich entlang dem Louvre über die Pont Neuf und an Notre Dame vorbei zum Campus Pierre et Marie Curie.
