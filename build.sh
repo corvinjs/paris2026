@@ -8,11 +8,19 @@ log() {
 }
 
 if command -v apt-get >/dev/null; then
-  if ! { command -v magick >/dev/null || command -v convert >/dev/null; } || ! command -v cjxl >/dev/null; then
-    log "Installing imagemagick and libjxl-tools"
+  packages=()
+  if ! { command -v magick >/dev/null || command -v convert >/dev/null; }; then
+    packages+=(imagemagick)
+  fi
+  if ! command -v cjxl >/dev/null; then
+    packages+=(libjxl-tools)
+  fi
+  if ((${#packages[@]})); then
+    log "Installing ${packages[*]}"
     export DEBIAN_FRONTEND=noninteractive
     apt_log="$(mktemp)"
-    if timeout 240s bash -c 'sudo apt-get update && sudo apt-get install -y -o Dpkg::Use-Pty=0 imagemagick libjxl-tools' >"$apt_log" 2>&1; then
+    if timeout 240s sudo apt-get update >"$apt_log" 2>&1 &&
+      timeout 240s sudo apt-get install -y -o Dpkg::Use-Pty=0 "${packages[@]}" >>"$apt_log" 2>&1; then
       rm -f "$apt_log"
     else
       status=$?
@@ -31,11 +39,17 @@ fi
 
 export GEM_HOME="$HOME/.gems"
 export PATH="$GEM_HOME/bin:$PATH"
+export BUNDLE_PATH="$PWD/.gems"
 
-if ! command -v jekyll >/dev/null; then
-  log "Installing Jekyll"
-  gem install --no-document jekyll >/dev/null 2>&1
+if ! command -v bundle >/dev/null; then
+  log "Installing Bundler"
+  gem install --no-document bundler
+fi
+
+if ! bundle check >/dev/null 2>&1; then
+  log "Installing Ruby dependencies"
+  bundle install --jobs 4 --retry 3
 fi
 
 log "Building Jekyll site (baseurl=${BASE_URL})"
-JEKYLL_ENV=production jekyll build --baseurl "$BASE_URL" --quiet
+JEKYLL_ENV=production bundle exec jekyll build --baseurl "$BASE_URL" --quiet

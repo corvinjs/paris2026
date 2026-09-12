@@ -15,7 +15,7 @@ preload:
   - href: /fonts/lmsans10-regular.woff2
     as: font
     crossorigin: anonymous
-  - href: /fonts/LTSuperiorSerif-Bold.woff
+  - href: /fonts/LTSuperiorSerif-Bold.woff2
     as: font
     crossorigin: anonymous
 
