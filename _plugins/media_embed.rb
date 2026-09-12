@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "fileutils"
+require "digest"
 require "open3"
 
 # Turn markdown image syntax for audio/video files into native <audio>/<video>
@@ -61,6 +62,10 @@ module MediaEmbed
     File.join(site.source, thumbnail_rel_path(rel_path))
   end
 
+  def thumbnail_digest_path(site, rel_path)
+    "#{thumbnail_path(site, rel_path)}.sha256"
+  end
+
   def thumbnail_available?(site, rel_path)
     path = thumbnail_path(site, rel_path)
     File.file?(path) && File.size(path).positive?
@@ -70,8 +75,10 @@ module MediaEmbed
 
   def thumbnail_fresh?(site, rel_path)
     source = File.join(site.source, rel_path)
-    output = thumbnail_path(site, rel_path)
-    thumbnail_available?(site, rel_path) && File.mtime(output) >= File.mtime(source)
+    digest_path = thumbnail_digest_path(site, rel_path)
+    thumbnail_available?(site, rel_path) &&
+      File.file?(digest_path) &&
+      File.read(digest_path).strip == Digest::SHA256.file(source).hexdigest
   rescue SystemCallError
     false
   end
@@ -81,8 +88,10 @@ module MediaEmbed
 
     source = File.join(site.source, rel_path)
     output = thumbnail_path(site, rel_path)
+    digest_path = thumbnail_digest_path(site, rel_path)
     token = "#{Process.pid}.#{Thread.current.object_id}"
     temporary = "#{output}.tmp.#{token}.jpg"
+    temporary_digest = "#{digest_path}.tmp.#{token}"
     FileUtils.mkdir_p(File.dirname(output))
     stdout, stderr, status = Open3.capture3(
       "ffmpegthumbnailer", "-i", source, "-o", temporary, "-s", "0", "-t", "0", "-q8"
@@ -93,12 +102,15 @@ module MediaEmbed
       raise detail
     end
     File.rename(temporary, output)
+    File.write(temporary_digest, "#{Digest::SHA256.file(source).hexdigest}\n")
+    File.rename(temporary_digest, digest_path)
     :generated
   rescue StandardError => e
     Jekyll.logger.warn "MediaEmbed:", "thumbnail failed for #{rel_path}: #{e.message}"
     :failed
   ensure
     FileUtils.rm_f(temporary) if temporary
+    FileUtils.rm_f(temporary_digest) if temporary_digest
   end
 
   def register_thumbnail_files!(site)
