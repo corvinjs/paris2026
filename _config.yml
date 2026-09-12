@@ -36,8 +36,6 @@ defaults:
       permalink: /:short_month-:day:output_ext
 
 picture_tag:
-  max_dim: 1600
+  widths: [480, 960, 1440, 1920]
   quality: 85
-  mobile_breakpoint: 768
-  desktop_slot: 960px
-  desktop_width: 960
+  sizes: "(min-width: 1100px) min(60vw, 960px), (min-width: 800px) min(calc(100vw - 280px), 960px), calc(100vw - 40px)"
