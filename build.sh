@@ -15,6 +15,9 @@ if command -v apt-get >/dev/null; then
   if ! command -v cjxl >/dev/null; then
     packages+=(libjxl-tools)
   fi
+  if ! command -v ffmpegthumbnailer >/dev/null; then
+    packages+=(ffmpegthumbnailer)
+  fi
   if ((${#packages[@]})); then
     log "Installing ${packages[*]}"
     export DEBIAN_FRONTEND=noninteractive
@@ -32,8 +35,9 @@ if command -v apt-get >/dev/null; then
   fi
 fi
 
-if ! { command -v magick >/dev/null || command -v convert >/dev/null; } || ! command -v cjxl >/dev/null; then
-  echo "ERROR: ImageMagick (magick or convert) and cjxl are required" >&2
+if ! { command -v magick >/dev/null || command -v convert >/dev/null; } ||
+  ! command -v cjxl >/dev/null || ! command -v ffmpegthumbnailer >/dev/null; then
+  echo "ERROR: ImageMagick (magick or convert), cjxl, and ffmpegthumbnailer are required" >&2
   exit 1
 fi
 
