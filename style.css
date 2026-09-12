@@ -63,12 +63,12 @@ hr {
 /* layout */
 
 html {
-    scroll-padding-top: 1.5rem;
+    scroll-padding-top: calc(1lh + 4px + 11px);
 }
 
 #main-wrapper > * {
 max-width: 1080px;
-margin: 0 20px;
+margin: 10px 20px;
 }
 
 picture {
@@ -158,7 +158,7 @@ nav .nav-icon:hover {
 }
 
 #mobile-toc {
-    margin: 0 0 7px;
+    margin: 10px 0 7px;
 }
 
 /* footnotes */

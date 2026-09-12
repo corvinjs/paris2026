@@ -85,7 +85,7 @@ module MediaEmbed
     temporary = "#{output}.tmp.#{token}.jpg"
     FileUtils.mkdir_p(File.dirname(output))
     stdout, stderr, status = Open3.capture3(
-      "ffmpegthumbnailer", "-i", source, "-o", temporary, "-s", "0", "-t", "0", "-q5"
+      "ffmpegthumbnailer", "-i", source, "-o", temporary, "-s", "0", "-t", "0", "-q8"
     )
     unless status.success? && File.file?(temporary) && File.size(temporary).positive?
       detail = (stderr.strip.empty? ? stdout.strip : stderr.strip)

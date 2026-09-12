@@ -43,12 +43,16 @@ fi
 
 export GEM_HOME="$HOME/.gems"
 export PATH="$GEM_HOME/bin:$PATH"
-export BUNDLE_PATH="$PWD/.gems"
 
 if ! command -v bundle >/dev/null; then
   log "Installing Bundler"
   gem install --no-document bundler
 fi
+
+# Keep installed gems inside the project so the build cache can retain them.
+# The local Bundler setting also makes subsequent commands such as
+# `bundle exec jekyll serve` use the same gems outside this script.
+bundle config set --local path .gems
 
 if ! bundle check >/dev/null 2>&1; then
   log "Installing Ruby dependencies"

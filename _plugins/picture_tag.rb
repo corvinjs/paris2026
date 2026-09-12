@@ -60,8 +60,11 @@ module PictureTag
 
   def save_manifest(site, manifest)
     FileUtils.mkdir_p(downsized_dir(site))
+    content = JSON.pretty_generate(manifest) + "\n"
+    return if File.file?(manifest_path(site)) && File.read(manifest_path(site)) == content
+
     tmp = "#{manifest_path(site)}.tmp.#{$$}"
-    File.write(tmp, JSON.pretty_generate(manifest) + "\n")
+    File.write(tmp, content)
     File.rename(tmp, manifest_path(site))
   ensure
     FileUtils.rm_f(tmp) if tmp

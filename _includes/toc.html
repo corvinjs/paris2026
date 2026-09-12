@@ -1,4 +1,4 @@
-<details {{ include.open }} class="toc">
+<details {{ include.open }} class="toc"  onToggle="/* grr. almost made a JS-free website */ if(!this._ready){this._ready=true;return} if(this.open) this.scrollIntoView({behavior:'smooth'})">
     <summary>Alle Posts</summary>
     <ul>
       {% for post in site.posts reversed %}

@@ -24,6 +24,7 @@ exclude:
   - post-template.md
   - pages/home.md
   - README.md
+  - assets/downsized/
   - cache-paths
   - sync-ignore/
 
