@@ -2,7 +2,7 @@
 title: Eine kurze Fahrradtour
 layout: post
 permalink: /:short_month-:day:output_ext
-description: "Corvin's Paris-Austausch: Woche 0"
+description: "Corvins Paris-Austausch: Woche 0"
 ---
 Die letzten drei Jahre war ich um diese Zeit auf Fahrradtour. Der Tradition gemäss beginnen wir also mit einem Fahrradbericht.
 
