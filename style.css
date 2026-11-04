@@ -39,6 +39,14 @@
     src: url('/fonts/LTSuperiorSerif-Bold.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    font-weight: 100 700;
+    font-display: swap;
+    src: url('/fonts/JosefinSans-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
 body {
     font-family: 'LM Sans', system-ui, -apple-system, Roboto, Arial, sans-serif;
 }
@@ -64,11 +72,12 @@ hr {
 
 html {
     scroll-padding-top: calc(1lh + 4px + 11px);
+    --content-margin-x: 20px;
 }
 
 #main-wrapper > * {
 max-width: 1080px;
-margin: 10px 20px;
+margin: 10px var(--content-margin-x);
 }
 
 picture {
@@ -104,7 +113,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 var(--content-margin-x);
     background-color: var(--color-navbar);
     margin-bottom: 11px;
     z-index: 1;
@@ -173,12 +182,38 @@ nav .nav-icon:hover {
     text-align: right;
 }
 
+/* blockquotes */
+
+blockquote {
+    position: relative;
+    margin: 2rem calc(- var(--content-margin-x));
+    padding: var(--content-margin-x);
+
+    background: color-mix(in srgb, var(--color-hyperlink) 10%, transparent);;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.65;
+}
+
+blockquote > :first-child { margin-top: 0; }
+blockquote > :last-child  { margin-bottom: 0; }
+
+@media (min-width: 800px) {
+    blockquote{
+        margin: 2rem 0;
+        padding: 1.25rem 1.5rem;
+        border-radius: 0 0 2rem 0;
+    }
+}
+
+
 /* desktop-specific */
 
 @media (min-width: 800px) {
     #main-wrapper {
     display: grid;
-    grid-template-columns: 260px 1fr 20px;
+    grid-template-columns: 260px 1fr var(--content-margin-x);
     width: 100%;
     }
 
@@ -202,7 +237,7 @@ nav .nav-icon:hover {
     max-width: 240px;
     height: 100%;
     overflow: scroll;
-    margin-left: 20px;
+    margin-left: var(--content-margin-x);
     padding-bottom: 34px;
     }
 
