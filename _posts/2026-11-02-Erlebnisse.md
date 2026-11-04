@@ -3,7 +3,7 @@ title: La fac! La fac! La fac, elle est à qui?
 layout: post
 permalink: /:short_month-:day:output_ext
 image: assets/nov-02.jpg
-description: À nous!
+description: Die Kinder der Revolution wollen nicht gefressen werden.
 ---
 Diesen Montag haben wir zum ersten Mal seit 4 Wochen endlich wieder Präsenzunterricht. Gott sei dank, habe ich mich doch sehr drauf gefreut, endlich wieder Struktur im Alltag zu haben. Meine Kameraden habe ich einen Monat lang nicht mehr gesehen.
 
@@ -58,7 +58,7 @@ An der Versammlung werde ich eines Besseren belehrt. Die Revolutionäre sind bas
 
 > […] Wir brauchen diese Aktion, wir müssen vielleicht über die Modalitäten nachdenken, selbstverständlich. Aber wir kämpfen für die Ausländer, wir kämpfen für die People of Color, wir kämpfen für die Leute, die mit dem Fernunterricht Probleme haben, wir kämpfen für all diese Menschen. Und es ist ganz wichtig, sich klarzumachen: Rechte bekommt man nicht, indem man nichts tut. Ja, es ist für alle schmerzhaft, aber notwendig, und wir werden weiterkämpfen, bis alle ihr Jahr unter guten Bedingungen bestehen können. Noch etwas, und das berührt einen wichtigen Punkt: Der Verwaltungsrat möchte, Stichwort "Bienvenu en France", schon ab nächstem Jahr Studiengebühren für ausländische Studierende einführen, und zwar um ein Vielfaches erhöht, ins Unmögliche. Ich finde es auch wichtig, dass wir uns wehren und gemeinsam darüber diskutieren, und jeder Beitrag ist wichtig.
 
-> Wie manche schon gesagt haben, soll das SHSE garantiert geöffnet bleiben. [...] Bezüglich den materiellen Forderungen: Seit Jahrzehnten werden wir fertiggemacht. Aber heute haben wir endlich ein Zeitfenster, um ein gesellschaftliches Problem anzugehen. Von klein auf haben wir gehört: "Ihr werdet keine Zukunft haben." Die Erderwärmung wird eure Zukunft ruinieren. Die Biodiversität wird zusammenbrechen, Überbevölkerung kommt. Jetzt, mit dem Aufstieg der KI und der Tech-Konzerne, sagt man uns wieder dasselbe. Mit den Kriegen, die kommen, sagt man uns dasselbe. Die Bewegung heute, weltweit, ist eine Frage des Überlebens. Denn in zehn, zwanzig Jahren wissen wir nicht, ob wir noch da sind. Und das ist Realität. Es geht auch die etwas an, die vielleicht nicht mehr zur Jugend zählen: Sie sollen an ihre Kinder denken, die es vielleicht nicht schaffen werden, diese Generation zu überleben. Heute ist also vielleicht das letzte Zeitfenster, um zu handeln. Und deshalb versuchen wir hier, mit dieser Mobilisierung in Jussieu, Dinge zu organisieren. Es ist wichtig, zu diskutieren, weil wir klare Forderungen wählen müssen. Es geht um unser Überleben.
+> Wie manche schon gesagt haben, soll das SHSE garantiert geöffnet bleiben. [...] Bezüglich den materiellen Forderungen: Seit Jahrzehnten werden wir fertiggemacht. Aber heute haben wir endlich ein Zeitfenster, um das gesellschaftliche Problem anzugehen. Von klein auf haben wir gehört: "Ihr werdet keine Zukunft haben." Die Erderwärmung wird eure Zukunft ruinieren. Die Biodiversität wird zusammenbrechen, Überbevölkerung kommt. Jetzt, mit dem Aufstieg der KI und der Tech-Konzerne, sagt man uns wieder dasselbe. Mit den Kriegen, die kommen, sagt man uns dasselbe. Die Bewegung heute, weltweit, ist eine Frage des Überlebens. Denn in zehn, zwanzig Jahren wissen wir nicht, ob wir noch da sind. Es geht auch die etwas an, die vielleicht nicht mehr zur Jugend zählen: Sie sollen an ihre Kinder denken, die es vielleicht nicht schaffen werden, diese Generation zu überleben. Heute ist also vielleicht das letzte Zeitfenster, um zu handeln. Und deshalb versuchen wir hier, mit dieser Mobilisierung in Jussieu, Dinge zu organisieren. Es ist wichtig, zu diskutieren, weil wir klare Forderungen wählen müssen. Es geht um unser Überleben.
 
 Etwa eine Stunde nach Beginn der Veranstaltung sind wir noch beim ersten von vier Traktanden und stimmen wir dafür ab, den verbleibenden Rednern nur noch eine Minute Redezeit zu gewähren.
 
@@ -103,7 +103,7 @@ Angenommen sind damit die beiden milderen Vorschläge, örtlich und zeitlich bes
 
 Auch wenn sich der Saal nun langsam leert, geht die Debatte weiter. Jemand weisst noch einmal auf die grassierende Islamophobie hin, wer anderes erklärt noch einmal die Vorteile einer vollständigen Besetzung, und noch einmal jemand argumentiert, man müsse morgen Dienstag die Uni blockieren, um dann ohne Nachteil an der grossen unbewilligten Demo im Quartier Latin teilnehmen zu können, und startet einen Sprechchor, der aber nicht durchkommt.
 
-Als ich um halb sieben den Hörsaal verlasse, ist es dunkel, nieselt und man weiss immer noch nicht, ob am nächsten Tag Schule sein wird oder nicht. Später erfahren wir, dass Dienstag und Donnerstag der Unterricht ausfällt. Tags darauf beschliessen die Mitarbeiter auf ihrer Versammlung, am Freitag zu streiken.
+Als ich um halb sieben den Hörsaal verlasse, ist es dunkel, nieselt und man weiss immer noch nicht, ob am nächsten Tag Schule sein wird oder nicht. Später erfahren wir, dass für die Demos am Dienstag und Donnerstag der Unterricht ausfällt. Tags darauf beschliessen die Mitarbeiter auf ihrer Versammlung, am Freitag zu streiken.
 
 ![](assets/ag_personnel.jpg)
 *Wandtafel der Mitarbeiter.*
