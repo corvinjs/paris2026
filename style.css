@@ -77,6 +77,14 @@ hr {
 html {
     scroll-padding-top: calc(1lh + 4px + 11px);
     --content-margin-x: 20px;
+    min-height: 100%;
+    background: var(--color-background);
+    overscroll-behavior-y: none;
+}
+
+body {
+    min-height: 100%;
+    background: var(--color-background);
 }
 
 #main-wrapper > * {
