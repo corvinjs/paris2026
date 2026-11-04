@@ -51,6 +51,10 @@ body {
     font-family: 'LM Sans', system-ui, -apple-system, Roboto, Arial, sans-serif;
 }
 
+@media (min-width: 800px) {
+    * { font-size: large; }
+}
+
 /* ================================================================ */
 
 /* Apply Customization */
@@ -185,9 +189,8 @@ nav .nav-icon:hover {
 /* blockquotes */
 
 blockquote {
-    position: relative;
-    margin: 2rem calc(- var(--content-margin-x));
-    padding: var(--content-margin-x);
+    margin: 2rem calc(0px - var(--content-margin-x));
+    padding: 17px var(--content-margin-x);
 
     background: color-mix(in srgb, var(--color-hyperlink) 10%, transparent);;
     font-family: "Josefin Sans";
