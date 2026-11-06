@@ -48,7 +48,7 @@ Bei der Kreuzung mit dem Canal St. Martin macht sich die Polizei erstmals bemerk
 ![](assets/20261105_140928.mp4)
 *Video bricht ab, weil ich mich auch in Sicherheit bringen muss.*
 
-An diesem Platz stossen unterschiedliche Auffassungen von Protest aufeinander. Ein riesiges Aufgebot an Wahlkämpfern für die Partei *La France Insoumise* und deren Präsidentschaftskandidaten Jean-Luc Mélenchon hat hier ihr Hauptquartier. Vom Norden kommen Kommunisten und Gewerkschafter. Jemand ballert Party-Beats. Etwas weiter ist es ruhiger und ein zwölfköpfiger Chor singt mehrstimmig getragene Lieder, in denen es um den Freiheitskampf geht, während zehn Meter weiter eine Reihe von gepanzerten Polizisten steht. Als sich diese zurückziehen, setzt sich die Menge in Bewegung, in Richtung Place de la Nation.
+An diesem Platz stossen unterschiedliche Auffassungen von Protest aufeinander. Ein riesiges Aufgebot an Wahlkämpfern für die Partei *La France Insoumise* und deren Präsidentschaftskandidaten Jean-Luc Mélenchon hat hier ihr Hauptquartier. Vom Norden kommen Kommunisten und Gewerkschafter. Jemand ballert Party-Beats. Dazwischen führen Influencer Interviews. Etwas weiter jedoch ist es ruhiger, und ein zwölfköpfiger Chor singt mehrstimmig getragene Lieder, in denen es um den Freiheitskampf geht, während zehn Meter weiter eine Reihe von gepanzerten Polizisten steht. Als sich diese zurückziehen, setzt sich die Menge in Bewegung, in Richtung Place de la Nation.
 
 ![](assets/20261105_143302.jpg)
 *Diese Kreuzung ist normalerweise einer der gefährlichsten Orte auf meinem Schulweg.*
