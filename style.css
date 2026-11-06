@@ -110,7 +110,8 @@ iframe {
     border: none;
 }
 
-:is(img,
+:is(picture,
+img,
 video,
 audio,
 iframe) + br {
