@@ -110,7 +110,7 @@ iframe {
     border: none;
 }
 
-:is(picture,
+:is(a:has(picture),
 img,
 video,
 audio,
