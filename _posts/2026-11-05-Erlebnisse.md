@@ -1,7 +1,7 @@
 ---
 title: On est là!
 layout: post
-permalink: /Nov-05.html
+permalink: /:short_month-:day:output_ext
 description: Ich war an der Demo.
 image: assets/nov-05.jpg
 ---
