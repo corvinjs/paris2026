@@ -92,7 +92,7 @@ Wir stimmen dafür, Delegationen zur Versammlung der (besetzten) Universität Pa
 
 Wofür *eigentlich* alle gekommen sind, die grosse Abstimmung über die Fortsetzung der Blockaden, dazu kommt es zwei Stunden nach Beginn der Versammlung. Die Luft im Saal ist verbraucht, die Studenten sind unruhig, tuscheln und fallen ins Wort. Die diversen Vorschläge für die Fortführung der Proteste wurden auf  5 Auswahlmöglichkeiten kondensiert, und während man diese vorstellt, werden drei davon nochmal angepasst. Nicht alle davon schliessen sich aus, und man darf für mehrere Vorschläge stimmen.
 
-Zur Auswahl stehen:
+Zur Auswahl stehen:[^2]
 - Aufhören: 7 Stimmen
 - Vollständige Besetzung, rund um die Uhr: 95 Stimmen
 - Aneignung ausgewählter Orte auf dem Campus, tagsüber: 210 Stimmen
@@ -108,4 +108,6 @@ Als ich um halb sieben den Hörsaal verlasse, ist es dunkel, nieselt und man wei
 ![](assets/ag_personnel.jpg)
 *Wandtafel der Mitarbeiter.*
 
-[^1]: Methodik: Handyaufnahme während der Versammlung, auf dem Laptop lokal transkribiert, anonymisiert, mit KI übersetzt, von Hand gekürzt.
+[^1]: Methodik: Handyaufnahme während der Versammlung, auf dem Laptop lokal transkribiert, anonymisiert, mit KI übersetzt, von Hand gekürzt. Die Reihenfolge ist chronologisch.
+
+[^2]: Stimmen gemäss [Instagram-Post](https://www.instagram.com/p/DfQbZXAjG5K) zu den Ergebnissen
