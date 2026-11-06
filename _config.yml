@@ -36,6 +36,10 @@ defaults:
       layout: post
       permalink: /:short_month-:day:output_ext
 
+kramdown:
+  # Single line breaks -> <br> , empty lines -> </p><p>
+  hard_wrap: true
+
 picture_tag:
   widths: [480, 960, 1440, 1920]
   quality: 85

@@ -30,9 +30,10 @@ Je weiter man sich vom Platz entfernt, desto mehr weicht das Volksfest dem Prote
 Gewerkschaften hatten einen landesweiten Generalstreik geplant, von dem in der Hauptstadt aber nicht viel zu spüren ist. Die Demo an sich wirkt folglich auch weniger wie ein Aufmarsch der Arbeiterklasse, denn als ein Sammelsurium an Anliegen. Oft geht es um Palästina, die Lebenshaltungskosten, Probleme im Bildungswesen, Klassenkampf, Unzufriedenheit mit Macron und Entsetzen über die Polizei.
 
 Natürlich singe ich mit.
-Aber stehe ich hinter der Aussage *Nous sommes tou.te.s des enfants de Gaza* ?[^1]
+
+Aber stehe ich hinter der Aussage *Nous sommes tou.te.s des enfants de Gaza* ?
 Wollen wir wirklich die *Révolution Permanente* ?
-Löst man irgendein Problem mit *Macron démission* ?
+Löst man irgendein Problem mit *Macron démission* ?[^1]
 
 ![](assets/tambour.mp4)
 *Von 16 aufwärts sind alle Altersgruppen vertreten.*
@@ -57,7 +58,7 @@ Der Stadtteil ist vorbereitet: Die Läden sind verrammelt, es gibt nicht mehr vi
 ![](assets/20261105_145022.mp4)
 *In diesem Teil der Demonstration sind nur Privatteilnehmer unterwegs, kaum organisierte Gruppen.*
 
-In den Häuserschluchten ist es schattig. Es gibt einen Knall, und hundert Meter hinter uns steigt Tränengasnebel auf. Die meisten Demonstranten haben Schutzausrüstung, viele sind vermummt, tragen FFP2-Masken, Skibrillen oder zumindest einen Schal. Presseleute haben Helm und Gasmaske. Sanitäter laufen mit. Über uns knattert ein Hubschrauber, von einem lautsprecherbepackten Fahrrad dröhnt Techno.
+In den Häuserschluchten ist es schattig. Es gibt einen Knall, und hundert Meter hinter uns steigt Tränengasnebel auf. Die meisten Demonstranten haben Schutzausrüstung, viele sind vermummt, tragen FFP2-Masken, Skibrillen oder zumindest einen Schal. Presseleute schützen sich mit Helm und Gasmaske. Sanitäter laufen mit. Über uns knattert ein Hubschrauber, von einem lautsprecherbepackten Fahrrad dröhnt Techno.
 
 Dann kommen die Bullen. Neben mir ruft jemand: *Avancez! Avancez!* Hastig strömt unsere Schar nun vorwärts. Wir rennen, wir drängen aufeinander, drohen zerquetscht zu werden. Ich schere an den Rand, zu den Polizeiautos. Drei Meter hinter mir dreschen Polizisten mit Schlagstöcken auf uns ein. Wir sind eingekesselt auf der Kreuzung des Boulevard Voltaire mit der Rue de Charonne. Doch schlagartig ist Ruhe, die Polizisten blockieren die Zufahrtswege und warten ab.
 
@@ -87,6 +88,6 @@ Die Demonstration zieht nun im Kreis um die Mitte des Platzes, den die Polizei b
 *Dieses Kunstwerk musste noch in den Post.*
 
 [^1]: 
-    a. "Wir alle sind Kinder aus Gaza" wird anschliessend an "Siamo tutti antifascisti" im gleichen Rythmus skandiert
-    b. Permanente Revolution (Marxismus), [Wikipedia](https://de.wikipedia.org/wiki/Permanente_Revolution)
-    c. démission = Rücktritt
+    <p>"Wir alle sind Kinder aus Gaza" wird anschliessend an "Siamo tutti antifascisti" im gleichen Rythmus skandiert</p>
+    <p>Permanente Revolution (Marxismus), <a href="https://de.wikipedia.org/wiki/Permanente_Revolution">Wikipedia</a></p>
+    <p>démission = Rücktritt</p>
