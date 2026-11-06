@@ -1,5 +1,5 @@
 ---
-title: On est là!
+title: On est là !
 layout: post
 permalink: /:short_month-:day:output_ext
 description: Ich war an der Demo.

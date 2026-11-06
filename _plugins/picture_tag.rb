@@ -269,11 +269,13 @@ module PictureTag
     jxl = build_srcset(site, entry, "jxl")
     smallest = entry["candidates"].first["jpeg"]["rel_path"]
     <<~HTML.strip
+      <a href="#{url_for(site, rel)}">
       <picture>
       <source type="image/jxl" srcset="#{jxl}" sizes="#{sizes_attr(site)}">
       <source type="image/jpeg" srcset="#{jpeg}" sizes="#{sizes_attr(site)}">
       <img src="#{url_for(site, smallest)}" srcset="#{jpeg}" sizes="#{sizes_attr(site)}" width="#{entry["source_width"]}" height="#{entry["source_height"]}"#{img_attrs_from(tag)} />
       </picture>
+      </a>
     HTML
   end
 
