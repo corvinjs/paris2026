@@ -218,6 +218,43 @@ blockquote > :last-child  { margin-bottom: 0; }
     }
 }
 
+/* details-summary */
+summary {
+    display: flex;
+    align-items: center;
+    gap: .6em;
+    padding: 0 0 .6em 0;
+    cursor: pointer;
+    list-style: none;        /* hides marker in Firefox/Chromium */
+}
+summary::-webkit-details-marker { display: none; } /* Safari */
+
+/* chevron */
+summary::before {
+    content: "";
+    flex: none;
+    inline-size: .5em;
+    block-size: .5em;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(-45deg);
+    transition: transform .2s;
+}
+details[open] > summary::before { transform: rotate(45deg); }
+
+/* text cue */
+summary::after {
+    content: "Aufklappen";
+    margin-inline-start: auto;
+    font-size: .85em;
+    opacity: .7;
+}
+details[open] > summary::after { content: "Zuklappen"; }
+
+/* opened content */
+details[open] > :not(summary) {
+    margin-inline-start: 1.2em;
+}
 
 /* desktop-specific */
 
