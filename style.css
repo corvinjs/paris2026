@@ -101,13 +101,20 @@ img,
 video,
 audio,
 iframe {
+    display: block;
+    max-width: 100%;
     max-height: 600px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
     padding: 15px 0;
     border: none;
-    max-width: 100%;
+}
+
+:is(img,
+video,
+audio,
+iframe) + br {
+    display: none;
 }
 
 audio { min-width: 80%; }
