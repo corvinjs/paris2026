@@ -19,7 +19,7 @@ Die Profs tun so, als sei nichts passiert. In der Mittagspause bleibt kaum Zeit,
 
 Kurz darauf kommt es zur denkwürdigen Abstimmung:
 
-![](assets/vote_sub_v7.mp4)
+![](assets/vote_sub_v8.mp4)
 *awfully long video.*
 
 Es gibt kein Halten mehr. If you can't beat them, join them. Nachdem ich eben noch gegen die Blockade gestimmt hatte, bin ich nun mittendrin und helfe mit, Blockaden aufzubauen. Nach nur 10 Minuten sind alle Eingänge abgeriegelt.
@@ -60,7 +60,7 @@ An der Versammlung werde ich eines Besseren belehrt. Die Revolutionäre sind bas
 
 > Wie manche schon gesagt haben, soll das SHSE garantiert geöffnet bleiben. [...] Bezüglich den materiellen Forderungen: Seit Jahrzehnten werden wir fertiggemacht. Aber heute haben wir endlich ein Zeitfenster, um das gesellschaftliche Problem anzugehen. Von klein auf haben wir gehört: "Ihr werdet keine Zukunft haben." Die Erderwärmung wird eure Zukunft ruinieren. Die Biodiversität wird zusammenbrechen, Überbevölkerung kommt. Jetzt, mit dem Aufstieg der KI und der Tech-Konzerne, sagt man uns wieder dasselbe. Mit den Kriegen, die kommen, sagt man uns dasselbe. Die Bewegung heute, weltweit, ist eine Frage des Überlebens. Denn in zehn, zwanzig Jahren wissen wir nicht, ob wir noch da sind. Es geht auch die etwas an, die vielleicht nicht mehr zur Jugend zählen: Sie sollen an ihre Kinder denken, die es vielleicht nicht schaffen werden, diese Generation zu überleben. Heute ist also vielleicht das letzte Zeitfenster, um zu handeln. Und deshalb versuchen wir hier, mit dieser Mobilisierung in Jussieu, Dinge zu organisieren. Es ist wichtig, zu diskutieren, weil wir klare Forderungen wählen müssen. Es geht um unser Überleben.
 
-Etwa eine Stunde nach Beginn der Veranstaltung sind wir noch beim ersten von vier Traktanden und stimmen wir dafür ab, den verbleibenden Rednern nur noch eine Minute Redezeit zu gewähren.
+Etwa eine Stunde nach Beginn der Veranstaltung sind wir noch beim ersten von vier Traktanden und stimmen dafür ab, den verbleibenden Rednern nur noch eine Minute Redezeit zu gewähren.
 
 > Was ich zuerst sagen möchte: Mit der Blockade, die gerade entsteht, sind wir nicht alle unbedingt einverstanden, und ich finde es völlig in Ordnung, dass wir nicht alle einverstanden sind, ganz einfach. Für manche ist das kompliziert. Ich bin durch die Hörsäle gegangen, und viele Leute haben die Sache mit der Blockade nicht verstanden, und das ist nachvollziehbar, weil es bei der letzten AG an Debatte gefehlt hat. Deshalb ist es gut, dass wir heute noch eine machen. Und zu einem anderen Punkt: Wir hatten vorher noch den Vorschlag eingebracht, die Uni nicht zu blockieren, sie offen zu lassen und in ihr Dinge auf die Beine zu stellen, insbesondere kulturelle; und auch Arbeitsgruppen.
 
