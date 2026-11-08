@@ -22,7 +22,7 @@ In der Mensa kann man nur mit dem hauseigenen Zahlungssystem *Izly* bezahlen. Un
 *Die Filmplakate wechseln monatlich.*
 
 ## Besuch in der CIUP
-Etwas südlich von der Sorbonne liegt die Cité Internationale Universitaire de Paris. Es handelt sich dabei um ein grosses Parkareal mit Wohnheimen für Internationale Studenten. Im Frühling hatte ich mich dort vergeblich um einen Platz beworben.
+Etwas südlich von der Sorbonne liegt die Cité Internationale Universitaire de Paris. Es handelt sich dabei um ein grosses Parkareal mit Wohnheimen für internationale Studenten. Im Frühling hatte ich mich dort vergeblich um einen Platz beworben.
 
 Schon der Eingang vermittelt den Eindruck, man habe es doch noch nach Oxford geschafft. Das Angebot für die Bewohner lässt nichts zu wünschen übrig: Musikräume. Tennisplätze. Ein Theater. Sicherheits- und Putzteams. Viel Grün. Ein Merch-Shop. Mit 700€ liegt die Miete am unteren Ende des Pariser Wohnungsmarkts. Die Kollegen, die uns hierhin eingeladen haben? Haben sich bei einer WG-Party kennengelernt.
 
@@ -97,4 +97,4 @@ Paris scheint keine Fasnachtstradition zu haben, aber von einer ganz typisch Par
 
 [^1]: Da ich weniger Fächer belege als die Einheimischen, habe ich eineinhalb Tage in der Woche frei.
 
-[^2]: Nicht verzeichnet ist ironischerweise genau die Organisation, deren Aktivitäten das Semester mehr als alles andere prägen wird: [jussieu.deter](https://www.instagram.com/jussieu.deter/)
+[^2]: Nicht verzeichnet ist ironischerweise genau die Organisation, deren Aktivitäten das Semester mehr als alles andere prägen wird: jussieu.deter ([Insta](https://www.instagram.com/jussieu.deter/))
