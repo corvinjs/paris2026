@@ -3,10 +3,10 @@ title: Erst kommt das Fressen
 layout: post
 permalink: /:short_month-:day:output_ext
 description: Erlebnisse in der ersten Studienwoche
-image: assets/sep-07.jpg
+image: assets/Sep-07.jpg
 ---
 ## Wie ist das Essen so?
-Die staatliche Studentenhilfswerk CROUS betreibt auf dem Campus eine Mensa. Die subventionierten Mittagessen für 1€ wurden mit diesem Semester auf alle Studenten ausgeweitet, und sind damit die erste Wahl für die tägliche Verpflegung.
+Die staatliche Studentenhilfswerk CROUS betreibt auf dem Campus eine Mensa. Die subventionierten Mittagessen für 1€ wurden mit diesem Semester auf alle Studenten ausgeweitet, und sind damit die erste Wahl für die tägliche Verpflegung. Lang lebe die Französische Republik!
 
 ![](assets/20260908_120132.jpg)
 *Das Essen ist einwandfrei. Sogar Salat und Nachtisch sind enthalten.*
@@ -29,7 +29,7 @@ Schon der Eingang vermittelt den Eindruck, man habe es doch noch nach Oxford ges
 ![](assets/20260908_194633.jpg)
 *Wo auf dem Photo liegt wohl die Mensa?*
 
-Mit den Erasmus-Studenten sind wir aus einem anderen Grund hier: Die CIUP verfügt auch über die einzige staatliche CROUS-Mensa der Stadt, die auch Abendessen für 1€ kocht.
+Mit den Erasmus-Studenten sind wir aus einem anderen Grund hier: Die CIUP, eine private Stiftung, beherbergt die einzige staatliche CROUS-Mensa der Stadt, die auch Abendessen für 1€ kocht.
 
 ![](assets/ciup-abendessen.jpg)
 *Der extrovertierte Teil der Erasmus-Physiker und Corvin.*
