@@ -9,7 +9,7 @@ image: assets/Sep-07.jpg
 Ich werde manchmal gefragt, inwiefern sich das Studium an der Sorbonne selbst von demjenigen in Zürich unterscheidet. Dazu gibt es nicht viel zu sagen. Die Inhalte eines Physikstudiums sind gefestigt und weltweit ungefähr gleich. In Statistischer Physik verwenden wir sogar das gleiche Lehrbuch. Es fällt jedoch auf, dass der französische Stoff unserem um ein Jahr hinterherhinkt -- auch die anderen Austauschstudenten studieren daheim im 3. Bachelor, hier jedoch im 1. Master. Anders als an der ETH werden die Übungsstunden nicht von älteren Studenten geleitet, sondern von fest angestellten Dozenten. Der Unterricht ist behüteter, und füllt den ganzen Tag 8:30 -- 18:00 aus[^1]. Was daheim Hausaufgabe wäre, wo man sich mit Kollegen und Bots selber durchkämpft (oder aufgibt), wird hier an der Tafel vorgelöst.
 <!-- Die erste Lektion von *Physique des Plasmas* verpasse ich fast vollständig, weil zur gleichen Zeit die Prüfungsergebnisse des vorigen Semesters von der ETH eintreffen. Ich habe insgesamt bestanden, ebenso die meisten meiner Freunde. -->
 ## Wie ist das Essen so?
-Die staatliche Studentenhilfswerk CROUS betreibt auf dem Campus eine Mensa. Die subventionierten Mittagessen für 1€ wurden mit diesem Semester auf alle Studenten ausgeweitet, und sind damit die erste Wahl für die tägliche Verpflegung. Lang lebe die Französische Republik!
+Das staatliche Studentenhilfswerk CROUS betreibt auf dem Campus eine Mensa. Die subventionierten Mittagessen für 1€ wurden mit diesem Semester auf alle Studenten ausgeweitet, und sind damit die erste Wahl für die tägliche Verpflegung. Lang lebe die Französische Republik!
 
 ![](assets/20260908_120132.jpg)
 *Das Essen ist einwandfrei. Sogar Salat und Nachtisch sind enthalten.*
