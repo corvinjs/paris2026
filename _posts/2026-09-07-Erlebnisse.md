@@ -5,6 +5,9 @@ permalink: /:short_month-:day:output_ext
 description: Erlebnisse in der ersten Studienwoche
 image: assets/Sep-07.jpg
 ---
+## Zum Unterricht
+Ich werde manchmal gefragt, inwiefern sich das Studium an der Sorbonne selbst von demjenigen in Zürich unterscheidet. Dazu gibt es nicht viel zu sagen. Die Inhalte eines Physikstudiums sind gefestigt und weltweit ungefähr gleich. In Statistischer Physik verwenden wir sogar das gleiche Lehrbuch. Es fällt jedoch auf, dass der französische Stoff unserem um ein Jahr hinterherhinkt -- auch die anderen Austauschstudenten studieren daheim im 3. Bachelor, hier jedoch im 1. Master. Anders als an der ETH werden die Übungsstunden nicht von älteren Studenten geleitet, sondern von fest angestellten Dozenten. Der Unterricht ist behüteter, und füllt den ganzen Tag 8:30 -- 18:00 aus[^1]. Was daheim Hausaufgabe wäre, wo man sich mit Kollegen und Bots selber durchkämpft (oder aufgibt), wird hier an der Tafel vorgelöst.
+<!-- Die erste Lektion von *Physique des Plasmas* verpasse ich fast vollständig, weil zur gleichen Zeit die Prüfungsergebnisse des vorigen Semesters von der ETH eintreffen. Ich habe insgesamt bestanden, ebenso die meisten meiner Freunde. -->
 ## Wie ist das Essen so?
 Die staatliche Studentenhilfswerk CROUS betreibt auf dem Campus eine Mensa. Die subventionierten Mittagessen für 1€ wurden mit diesem Semester auf alle Studenten ausgeweitet, und sind damit die erste Wahl für die tägliche Verpflegung. Lang lebe die Französische Republik!
 
@@ -44,11 +47,8 @@ Mein Heimweg führt an einer Hochhaussiedlung vorbei. Wieso nicht die vernachlä
 ![](assets/20260908_200313.jpg)
 *Die 35-stöckigen Türme liegen direkt gegenüber der CIUP auf der anderen Schienenseite.*
 
-## Zum Unterricht
-Ich werde manchmal gefragt, inwiefern sich das Studium an der Sorbonne selbst von demjenigen in Zürich unterscheidet. Dazu gibt es nicht viel zu sagen. Die Inhalte eines Physikstudiums sind gefestigt und weltweit ungefähr gleich. In Statistischer Physik verwenden wir sogar das gleiche Lehrbuch. Es fällt jedoch auf, dass der französische Stoff unserem um ein Jahr hinterherhinkt -- auch die anderen Austauschstudenten studieren daheim im 3. Bachelor, hier jedoch im 1. Master. Anders als an der ETH werden die Übungsstunden nicht von älteren Studenten geleitet, sondern von fest angestellten Dozenten. Der Unterricht ist behüteter, und füllt den ganzen Tag 8:30 -- 18:00 aus[^1]. Was daheim Hausaufgabe wäre, wo man sich mit Kollegen und Bots selber durchkämpft (oder aufgibt), wird hier an der Tafel vorgelöst.
-
-<!-- Die erste Lektion von *Physique des Plasmas* verpasse ich fast vollständig, weil zur gleichen Zeit die Prüfungsergebnisse des vorigen Semesters von der ETH eintreffen. Ich habe insgesamt bestanden, ebenso die meisten meiner Freunde. -->
-Sehr vermisse ich den VSETH-Newsletter, das monatliche Rundmail mit allen Veranstaltungen der Studentenvereine. Stattdessen verteilt man uns zu Beginn des Semesters ein [170-seitiges Verzeichnis](https://www.sorbonne-universite.fr/sites/default/files/media/2026-07/guide_associations_2026_2027.pdf) aller studentischer Clubs in Papierform. Für jedes Thema gibt es eine Gruppe, oft auch mehrere. So finden sich jeweils 6 Stück für Theater, Videospiele und Soziale Gerechtigkeit[^2]. Jede betreibt ihre eigenen Kanäle und viele sind inaktiv. Schlussendlich bin ich überwältigt von der Fülle an Angeboten und gehe keinem davon nach. Unser Jahrgang, und auch der Verein der Physikmasterstudenten haben gar keine gemeinsamen Anlässe.
+## Studentenkultur Sorbonne
+Sehr vermisse ich den VSETH-Newsletter, das monatliche Rundmail mit allen Veranstaltungen der Studentenvereine. Stattdessen verteilt man uns zu Beginn des Semesters ein [170-seitiges Verzeichnis](https://www.sorbonne-universite.fr/sites/default/files/media/2026-07/guide_associations_2026_2027.pdf) aller studentischer Clubs in Papierform. Für jedes Thema gibt es eine Gruppe, oft auch mehrere. So finden sich jeweils 5 Stück für Theater, Videospiele und Soziale Gerechtigkeit[^2]. Jede betreibt ihre eigenen Kommunikationskanäle und viele sind inaktiv. Schlussendlich bin ich überwältigt von der Fülle an Angeboten und gehe keinem davon nach. Unser Jahrgang, und auch der Verein der Physikmasterstudenten haben gar keine gemeinsamen Anlässe.
 
 ![](assets/anotherdayofsun.mp4)
 *Eine Guggenmusik scheint es nicht zu geben, aber die hier sind cooler. Mein Saxophon ist leider daheim geblieben, weil ich nirgends üben kann...*
