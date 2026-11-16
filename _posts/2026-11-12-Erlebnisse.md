@@ -14,10 +14,10 @@ Seit über einem Monat hält die nationale Protestbewegung unsere Uni in Atem. W
 **Donnerstag**: Unterrichtsausfall, Demo (siehe [Post](Nov-05.html))
 **Freitag**: Streik des Unipersonals
 
-![](assets/20261104_175541.jpg)
+![Eingang des frisch besetzten Atriums am Mittwochabend](assets/20261104_175541.jpg)
 *Die Abstimmung, ob man das* Atrium *besetzen soll, wurde so oft wiederholt, bis sich am Mittwochnachmittag endlich gutdemokratisch eine Mehrheit findet.*
 
-![](assets/koeufs-montage.mp4)
+![Drei Clips von Polizisten, die sich vor dem Eingang des Jussieu-Campus sammeln, und von Polizeiautos](assets/koeufs-montage.mp4)
 *Im ersten Clip singen sie: Jeder hasst die Polizei. Quelle: Whatsapp.*
 
 Als am Freitagabend im Jahrgangschat Aufnahmen von einem gigantischen Aufmarsch an Polizisten kursieren, denken wir schon, das sei es gewesen mit der Besetzung. Die Polizei bleibt jedoch ausserhalb des Campus -- hat die Unileitung es sich nochmal anders überlegt?
@@ -25,7 +25,7 @@ Als am Freitagabend im Jahrgangschat Aufnahmen von einem gigantischen Aufmarsch 
 ## Die Zitadelle
 Die Fäden laufen zusammen im *Tour Zamansky*, von wo aus die Präsidentin den Jussieu-Campus überblickt. Als einziger Wolkenkratzer des Stadtzentrums neben dem Tour Montparnasse gehört er zur Pariser Skyline. Die tieferen Stellen der Unibürokratie, mit denen ich Normalsterblicher interagiere, sitzen nicht einmal dort. Der Turm ist für die Besetzer zum Symbol der feindlichen Unileitung geworden. Aber ist es eine gute Idee, derart Hass auf seinen Verhandlungspartner zu schüren?
 
-![](assets/zamansky-meme.jpg)
+![Das Spiderman-Verwechslungs-Meme mit dem Tour Zamansky, wo im obersten Stockwerk ein Licht brennt, und Barad-Dûr aus Herr der Ringe.](assets/zamansky-meme.jpg)
 *Links: Der Tour Zamansky in der Nacht auf den 12.11. Rechts: Barad-Dûr. Quelle: Insta der Besetzer*
 
 Für die folgende Woche vom 9. November verhängt die Präsidentin eine erneute Sperre über den Campus, bis die Besetzung endet. Auf dem allgemeinen Email-Verteiler verschärft sich die Schlammschlacht zwischen Administration und Aktivisten weiter. Schon seit Wochen schiebt man sich dort gegenseitig die Verantwortung für die Campusschliessungen und den Fernunterricht zu und wirft sich vor, jeden Dialog zu ersticken.
@@ -44,7 +44,7 @@ Da tauchen die Revolutionäre auf. Zwischen die Metallstäbe klemmen sie Kartons
 
 Ein gewaltiger Haufen belagert nun den Eingang. Doch dieser ist versperrt: Ein hünenhafter Sicherheitsmann stellt sich in den Türrahmen und lässt uns nicht rein. Da hilft nur Singen. Wir feuern die erste Reihe mit revolutionären Versen an, während von hinten immer mehr Protestierende dagegen drücken. *Das war's dann mit dem gewaltfreien Protest*, kommentiert jemand hinter mir. Wir sind bereits einmal durch das Repertoire an Sprechchören durch, als sie endlich durchbrechen. Im Triumph ziehen wir ins Innere des Campus ein.
 
-![](assets/deuxpassions_blurred.mp4)
+![Studenten gehen durch den Haupteingang auf den Jussieu-Campus und singen dabei J'ai deux passions](assets/deuxpassions_blurred.mp4)
 *Der rechte Kanal der Tonspur wurde entfernt, weil man mich darauf singen hört.*
 
 ## Besuch bei Besetzern

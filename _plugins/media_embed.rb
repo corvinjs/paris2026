@@ -3,6 +3,7 @@
 require "fileutils"
 require "digest"
 require "open3"
+require "cgi"
 
 # Turn markdown image syntax for audio/video files into native <audio>/<video>
 # embeds (Obsidian-style: ![](assets/foo.mp4) → <video>, ![](assets/foo.ogg) → <audio>).
@@ -23,7 +24,7 @@ module MediaEmbed
   end
 
   def extract_attr(tag, name)
-    tag.match(/\b#{name}=["']([^"']*)["']/i)&.[](1)
+    tag.match(/\b#{Regexp.escape(name)}=(["'])(.*?)\1/i)&.[](2)
   end
 
   def embed_tag(kind, url, alt, poster = nil)
@@ -32,7 +33,8 @@ module MediaEmbed
     case kind
     when :video
       poster_attr = poster ? %( poster="#{poster}") : ""
-      %(<video controls preload="none" playsinline#{poster_attr} src="#{url}">#{fallback}</video>)
+      label_attr = alt && !alt.empty? ? %( aria-label="#{CGI.escapeHTML(alt)}") : ""
+      %(<video controls preload="none" playsinline#{poster_attr}#{label_attr} src="#{url}"></video>)
     when :audio
       %(<audio controls preload="metadata" src="#{url}">#{fallback}</audio>)
     end
