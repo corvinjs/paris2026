@@ -6,7 +6,7 @@ layout: post
 permalink: /:short_month-:day:output_ext
 ---
 ## Was bisher geschah
-Seit über einem Monat hält die nationale Protestbewegung unsere Uni in Atem. Während sich die Forderungen immer weiter ausdehnen ist kein Einlenken der Regierung in Sicht. Wer den vorletzten Post mit den [Reden an der Assemblée Générale am 2. November](Nov-02.html) gelesen hat, wird nicht überrascht sein, wie sich die Lage in der Woche weiterentwickelt hat:
+Seit über einem Monat hält die nationale Protestbewegung unsere Uni in Atem. Während sich die Forderungen immer weiter ausdehnen, ist kein Einlenken der Regierung in Sicht. Wer den vorletzten Post mit den [Reden an der Assemblée Générale am 2. November](Nov-02.html) gelesen hat, wird nicht überrascht sein, wie sich die Lage in der Woche weiterentwickelt hat:
 
 **Montag**: Unterricht, Versammlung und vorübergehende Blockade der Uni (siehe [Post](Nov-02.html))
 **Dienstag**: Unterrichtsausfall, Demo
