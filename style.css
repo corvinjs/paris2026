@@ -77,6 +77,7 @@ hr {
 html {
     scroll-padding-top: calc(1lh + 4px + 11px);
     --content-margin-x: 20px;
+    --desktop-toc-width: 220px;
     min-height: 100%;
     background: var(--color-background);
     overscroll-behavior-y: none;
@@ -277,7 +278,7 @@ details:not(.toc) {
     }
 
     #left-column {
-    min-width: 220px;
+    min-width: var(--desktop-toc-width);
     }
 
     #content {
@@ -293,7 +294,7 @@ details:not(.toc) {
     #desktop-toc {
     position: fixed;
     display: inline;
-    max-width: 240px;
+    max-width: var(--desktop-toc-width);
     height: 100%;
     overflow: scroll;
     margin-left: var(--content-margin-x);

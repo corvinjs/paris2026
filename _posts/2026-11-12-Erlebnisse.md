@@ -67,7 +67,7 @@ Die Anliegen der Protestierenden haben sich verschoben. In den Diskussionen und 
 ![](assets/waescheleine.jpg)
 *Hier waren Ingenieure am Werk.*
 
-Sprachrohr der Besetzung ist der Instagram-Kanal [jussieu.deter](https://www.instagram.com/jussieu.deter/). Dort posten sie abwechselnd Demo-Aufrufe (zwei Stunden im Voraus), Memes ("Solidarität für die Angehörigen der abgefackelten Mülleimer"), Videos, wie Polizisten brutal Besetzungen räumen, und Argumente gegen die Darstellung der Unileitung (gern mal zwanzig Swipes lang).
+Nach aussen ist das Sprachrohr der Besetzung der Instagram-Kanal [jussieu.deter](https://www.instagram.com/jussieu.deter/). Dort posten sie abwechselnd Demo-Aufrufe (zwei Stunden im Voraus), Memes ("Solidarität für die Angehörigen der abgefackelten Mülleimer"), Videos, wie Polizisten brutal Besetzungen räumen, und Argumente gegen die Darstellung der Unileitung (gern mal zwanzig Swipes lang).
 
 ![](assets/besetzertorte.jpg)
 *Das Essen ist deutlich besser als alles, was unsereins im Lockdown zubereitet. Dennoch: Jeden Tag Gemüseauflauf?*
@@ -76,7 +76,7 @@ Sprachrohr der Besetzung ist der Instagram-Kanal [jussieu.deter](https://www.ins
 ![](assets/univ-pop.jpg)
 *Das Tagesprogramm für die Université Populaire*
 
-Auch wenn mich die Geschichtsstunde zum Pariser Unistreik von 1229 sehr interessiert hätte, bin ich ja doch fürs Physikstudium nach Paris gekommen. Und so höre ich einen öffentlichen Kurs über Wellen. Der Lehrer kennt keine Gnade: Wir behandeln alle vier Maxwellgleichungen und die Geometrie von Gitarrensaiten; wir kürzen dx und enden bei der speziellen Relativität. Es ist so klassisch, wie Physik nur wird, inklusive der französischen Eigenheit, zwei Stunden ohne Pause zu unterrichten. Doch noch nie habe ich eine Physikstunde so genossen. Ausgerechnet die Besetzer ermöglichen mir ein Stück Normalität -- vielleicht abgesehen davon, dass manchmal Genossen mit Hammer-und-Sichel-Stirnband hineinkommen.
+Die Besetzer bieten in den Klassenzimmern des Atriums ein abwechslungsreiches Angebot an Ersatzunterricht. Auch wenn mich die Geschichtsstunde zum Pariser Unistreik von 1229 sehr interessiert hätte, bin ich ja doch fürs Physikstudium nach Paris gekommen. Und so höre ich einen öffentlichen Kurs über Wellen. Der Lehrer kennt keine Gnade: Wir behandeln alle vier Maxwellgleichungen und die Geometrie von Gitarrensaiten; wir kürzen dx und enden bei der speziellen Relativität. Es ist so klassisch, wie Physik nur wird, inklusive der französischen Eigenheit, zwei Stunden ohne Pause zu unterrichten. Doch noch nie habe ich eine Physikstunde so genossen. Ausgerechnet die Besetzer ermöglichen mir ein Stück Normalität -- vielleicht abgesehen davon, dass manchmal Genossen mit Hammer-und-Sichel-Stirnband hineinkommen.
 
 ![](assets/freiheit.jpg)
 *So sieht also eine befreite Uni aus...*
@@ -95,7 +95,7 @@ Einen Balkan-Tanzkurs im Atrium verpasse ich zugunsten der Videokonferenz vom of
 Über den Mittag sind vier Polizeibusse angekommen, und geharnischte Polizisten bewachen nun den Eingang. An die Mitarbeiter geht eine E-Mail, den Campus zu evakuieren.
 
 ![](assets/evacuation-mail.jpg)
-*Weil ich im Gegensatz zu den meisten anderen Besuchern nicht an der Assemblée Générale der Mitarbeiter war, die über den Mittag stattfand, erfahre ich erst Tage später von dieser Evakuation.*
+*Weil ich im Gegensatz zu den meisten anderen Besuchern nicht an der Assemblée Générale der Mitarbeiter war, die am frühen Nachmittag stattfand, erfahre ich erst Tage später von dieser Evakuation.*
 
 An der Assemblée Générale diesen Nachmittag im besetzten Atrium scheint man überzeugt, dass die Polizei am Abend die Besetzung stürmen wird. Es gibt zwei unmittelbare Präzedenzfälle: Vor mittlerweile einem Monat war eine Versammlung (nicht Besetzung) bei der Universität *Sorbonne Nouvelle* von der CRS [frz. Bereitschaftspolizei] auf Geheiss der Verwaltung brutal geräumt worden. Deren Präsident trat daraufhin zurück[^2]. Anfang dieser Woche räumte die CRS eine Besetzung auf unserem Schwestercampus Clignancourt, wobei es gemäss Aktivisten zu sexuellen Übergriffen gekommen sei.
 
@@ -142,7 +142,7 @@ An der Versammlung sind viele Mitarbeiter anwesend, das Mikrophon geht zunächst
 
 > Es gibt Leute, die sind seit einer Woche drinnen. Es gibt Leute, die sich viel Mühe gegeben haben für das alles. Andere Unis wurden mit unerhörter Gewalt geräumt. Ich denke an Saint-Charles: Sie wurden nicht geräumt, aber man hat ihnen Wasser und Strom abgedreht; in Clignancourt gab es eine Razzia. Welche Botschaft sendet es, wenn wir im Gänsemarsch rausgehen, während andere Unis dafür gekämpft haben, zu bleiben?
 
-Es folgt eine lange Diskussion, welche Optionen man genau zur Abstimmung stellen soll. Letztendlich stellt sich heraus, dass fast alle dafür sind, sich bei Eintreffen der Polizei in zwei Gruppen zu teilen -- eine, die geschlossen geht, und eine, die eine Sitzblockade macht. Bevor sich die Versammlung auflöst, gibt es noch eine Wortmeldung:
+Es folgt eine lange Diskussion, welche Optionen man genau zur Abstimmung stellen soll. Letztendlich stellt sich heraus, dass von Anfang an fast alle dafür waren, sich bei Eintreffen der Polizei in zwei Gruppen zu teilen -- eine, die geschlossen geht, und eine, die eine Sitzblockade macht. Bevor sich die Versammlung auflöst, gibt es noch eine Wortmeldung:
 
 > Hallo zusammen, ich war Therapeutin in der ZAD von Notre-Dame-des-Landes [einer [legendären Besetzung](https://fr.wikipedia.org/wiki/ZAD_de_Notre-Dame-des-Landes)]. Heute bin ich in Paris mit mehreren aktivistischen Psychologen-Kollektiven, damit wir auch für euch da sein können. [...] Egal, wie ihr euch entscheidet, ob bleiben oder gehen, ihr alle habt jedes Recht, hier Unterstützung zu bekommen, bei allem, was gerade passiert. Man muss dafür nicht 30 Tränengasgranaten ins Gesicht kriegen. [...] Wenn ihr Fragen habt oder reden wollt: Kommt zu mir, und ich kann den Kontakt zu jemandem herstellen.
 
@@ -159,7 +159,7 @@ Ganz unbeschadet bin ich doch nicht davongekommen: Die nächsten Tage verfolgt m
 ![](assets/entzueckung-des-endes.jpg)
 *Eine unschuldige Partyeinladung täuscht über die apokalyptische Stimmung hinweg.*
 
-Stand vier Tage später besteht die Besetzung noch. Die Unileitung hat den Campus wieder geöffnet, was gleichzeitig einen Triumph wie einen Hinweis auf eine baldige Räumung darstellt.
+Stand vier Tage später besteht die Besetzung noch. Die Unileitung hat den Campus wieder geöffnet, was gleichzeitig einen Triumph wie einen Hinweis auf eine bevorstehende Räumung darstellen kann.
 
 [^1]: Nur ein Fun Fact: Unter 200m Tiefe dringt zwar noch etwas blaues Sonnenlicht vor, aber kein rotes. Viele Fische dort haben die Fähigkeit verloren, rot zu sehen. Das nutzt ein Raubfisch, der sie mit einem rot leuchtenden Taschenlampenorgan jagt.<br>
 	Ok noch einer: Im Jardin des Plantes kann man den einzigen plastinierten Riesenkalmar der Welt sehen, 100m vom Campus Jussieu.<br>
