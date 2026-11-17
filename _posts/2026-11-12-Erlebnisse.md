@@ -139,7 +139,7 @@ Es folgt eine lange Diskussion, welche Optionen man genau zur Abstimmung stellen
 > Hallo zusammen, ich war Therapeutin in der ZAD von Notre-Dame-des-Landes [einer [legendären Besetzung](https://fr.wikipedia.org/wiki/ZAD_de_Notre-Dame-des-Landes)]. Heute bin ich in Paris mit mehreren aktivistischen Psychologen-Kollektiven, damit wir auch für euch da sein können. [...] Egal, wie ihr euch entscheidet, ob bleiben oder gehen, ihr alle habt jedes Recht, hier Unterstützung zu bekommen. Man muss dafür nicht 30 Tränengasgranaten ins Gesicht kriegen. [...] Kommt zu mir, und ich kann den Kontakt zu jemandem herstellen.
 
 ## Ein feiger Abgang
-Um uns von der Angst abzulenken, geht die Université Populaire weiter. Ich suche die Vorlesung zu den CPE-Protesten von 2006[^6], in dem Raum findet aber wieder eine Physikstunde statt, diesmal zu Akustik. Dass ich den Inhalt bereits kenne, zieht die Stunde ebenso in die Länge wie die Vorstellung, dass gleich die CRS mit Schilden und Visier in den Raum platzen könnten.
+Um uns von der Angst abzulenken, geht die Université Populaire weiter. Ich suche die Vorlesung zu den CPE-Protesten von 2006[^6], in dem Raum findet aber wieder eine Physikstunde statt, diesmal zu Akustik. Die Stunde zieht sich in die Länge, nicht nur weil ich den Inhalt bereits kenne, sondern auch wegen der Vorstellung, dass gleich die CRS mit Schilden und Visier in den Raum platzen könnten.
 
 Ich will nicht länger bleiben, als ein normaler Schultag ginge, und stehle mich deshalb kurz nach 17 Uhr davon. Vor dem Eingang hocken die Polizisten in ihren Einsatzbussen, scrollen und warten.
 
