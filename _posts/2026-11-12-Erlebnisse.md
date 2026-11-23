@@ -48,58 +48,58 @@ Ein gewaltiger Haufen belagert nun den Eingang. Doch dieser ist versperrt: Ein h
 *Der rechte Kanal der Tonspur wurde entfernt, weil man mich darauf singen hört.*
 
 ## Besuch bei Besetzern
-![](assets/20261112_092215-censure.jpg)
+![Am Eingang zum Atrium sind über die Glasfront unter dem roten Vordach grosse rote Buchstaben "COMMUNE DE JUSSIEU" geklebt; die Personen sind verpixelt.](assets/20261112_092215-censure.jpg)
 *Die Commune de Paris von 1871 hielt 72 Tage durch und endete in einem Blutbad. Wir sind derzeit bei Tag 8.*
 
 Wer bei Pariser Protesten an eingeschlagene Scheiben und brennende Fahrräder denkt, wird von der *Commune de Jussieu* überrascht. Kein Vergleich mit der immerwährenden Gisi-Besetzung im heimischen Winterthur, wo Wände und Decken mit Aufklebern tapeziert sind. Der Boden ist blitzblank, und im ganzen Gebäude finde ich nicht eine Kritzelei und keinen Fetzen Abfall. Auf Tischen kann man von einem Sortiment an Hygieneartikeln, Unterwäsche und Haushaltsbedarf nehmen. Materiell sind sie mit Schlafsäcken, Lautsprechern, kistenweise Rüben und einem Online-Wunschzettel wohletabliert.
 
-![](assets/zmittag.jpg)
+![Blick von oben in die rote Eingangshalle des Atriums: Dutzende Menschen stehen in Gruppen, an den Rändern Tische mit Material und Essen; an den Glaswänden hängen Botschaften aus A4-Buchstaben.](assets/zmittag.jpg)
 *Das lichte Atrium scheint gradezu gebaut worden zu sein, um besetzt zu werden.*
 
-![](assets/20261112_092350.jpg)
+![Blick nach oben in den Lichthof mit Rolltreppen und bunten Wänden; an den Betonwänden zeilenweise Sprüche aus aufgeklebten Einzelbuchstaben, daneben hängt eine Palästina-Fahne.](assets/20261112_092350.jpg)
 *Von den Botschaften an den Wänden verstehe ich fast alle Pointen. Bin ich schon so tief drin in der Bewegung?*
 
 Die Anliegen der Protestierenden haben sich verschoben. In den Diskussionen und Posts kämpft man kaum noch für mehr Geld fürs Bildungswesen oder die Rettung des Sozialstaats. Drängender ist die "10 améliorable", also die Forderung, dass alle Studenten das aktuelle Semester unabhängig von ihren Leistungen bestehen. Oft thematisiert wird auch die Wut auf die Unileitung und die Angst vor einer Polizei, die jede Menschlichkeit verloren hätte.
 
-![](assets/carton-occupe.jpg)
+![Eine 1x1 Meter grosse Bude aus Karton und Holzlatten mit Zinnen wie eine Burg, beschriftet mit "Carton occupé" und "Château populaire"; davor ein Schild "Free le monde". Ausserdem ein Evakuationsplan, Liste mit Anwälten und dem Schild "Vitrani - Sexy - Sensuelle" gegen die Präsidentin](assets/carton-occupe.jpg)
 *Auf dem Tisch liegen A4-Lettern, um Botschaften an den Wänden aufzuhängen.*
 
-![](assets/waescheleine.jpg)
+![Eine Wäscheleine voller Handtücher und Kleider, gespannt quer durch einen orange gestrichenen Gang und an einem blauen Plastiksessel festgebunden.](assets/waescheleine.jpg)
 *Hier waren Ingenieure am Werk.*
 
 Nach aussen ist das Sprachrohr der Besetzung der Instagram-Kanal [jussieu.deter](https://www.instagram.com/jussieu.deter/). Dort posten sie abwechselnd Demo-Aufrufe (zwei Stunden im Voraus), Memes ("Solidarität für die Angehörigen der abgefackelten Mülleimer"), Videos, wie Polizisten brutal Besetzungen räumen, und Argumente gegen die Darstellung der Unileitung (gern mal zwanzig Swipes lang).
 
-![](assets/besetzertorte.jpg)
+![Instagram-Post: eine Lunchbox mit Linsensalat, Croûtons, Brokkoli und Sauce, überschrieben mit "J-7: Occup' de Jussieu – la semaine anniversaire se fête autour d'un bon repas (comme toujours)".](assets/besetzertorte.jpg)
 *Das Essen ist deutlich besser als alles, was unsereins im Lockdown zubereitet. Dennoch: Jeden Tag Gemüseauflauf?*
 
 ## Marxwell und die Kreaturen des Abgrunds
-![](assets/univ-pop.jpg)
+![Whiteboard "Planning du 12/11"mit Stundenplan nach Räumen: Kurse wie mittelalterliche Geschichte zum Unistreik von 1229, Physik der Wellen, Akustik, KI und Sprache und eine Balfolk-Initiation, dazu um 12 Uhr eine Vollversammlung für alle im Amphi 25.](assets/univ-pop.jpg)
 *Das Tagesprogramm für die Université Populaire*
 
 Die Besetzer bieten in den Klassenzimmern des Atriums ein abwechslungsreiches Angebot an Ersatzunterricht. Auch wenn mich die Geschichtsstunde zum Pariser Unistreik von 1229 sehr interessiert hätte, bin ich ja doch fürs Physikstudium nach Paris gekommen. Und so höre ich einen öffentlichen Kurs über Wellen. Der Lehrer kennt keine Gnade: Wir behandeln alle vier Maxwellgleichungen und die Geometrie von Gitarrensaiten; wir kürzen dx und enden bei der speziellen Relativität. Es ist so klassisch, wie Physik nur wird, inklusive der französischen Eigenheit, zwei Stunden ohne Pause zu unterrichten. Doch noch nie habe ich eine Physikstunde so genossen. Ausgerechnet die Besetzer ermöglichen mir ein Stück Normalität -- vielleicht abgesehen davon, dass manchmal Genossen mit Hammer-und-Sichel-Stirnband hineinkommen.
 
-![](assets/freiheit.jpg)
+![Whiteboard in einem rosa Klassenzimmer zum Thema "Solutions de l'équation de d'Alembert 1D": Skizze einer Sinuswelle, die Formel s(x,t) = s₀·cos(ωt − kx + φ₀) und die Dispersionsrelation k = ±ω/c.](assets/freiheit.jpg)
 *So sieht also eine befreite Uni aus...*
 
 Im Anschluss höre ich eine sehr spannende Vorlesung zu den *Anpassungen der Tiere der Tiefsee*. Wir tauchen ab in eine Welt von skurrilen Fischen mit riesigen Mäulern, in der die Nahrung von oben schneit und in die kein Sonnenlicht dringt, nur endlose Finsternis. Pass dort unten auf, wenn du ein blaues Leuchten siehst, denn da wirst du gefressen[^1].
 
-![](assets/anglerfisch.jpg)
+![Präsentationsfolie "Baudroies abyssales": Fotos von Tiefsee-Anglerfischen mit leuchtendem Köder (esca) an einer Angelrute (illicium) und von winzigen Männchen, die am Weibchen hängen, dazu Fragen zu deren Rolle und Aussehen.](assets/anglerfisch.jpg)
 *Die Kreaturen des Abgrunds. Quelle: Präsentation an der Université Populaire.* [Youtube-Link aus der Folie](https://www.youtube.com/watch?v=anDIlMVgNwk)
 
 Einen Balkan-Tanzkurs im Atrium verpasse ich zugunsten der Videokonferenz vom offiziellen Fach *Physique des Plasmas*.
 
-![](assets/visio.jpg)
+![Screenshot einer Videokonferenz: links die Kacheln der Teilnehmer, einer davon Corvin mit dem Atrium im Hintergrund, in der Mitte ein geteiltes PDF mit Formeln zum Fluidmodell der Plasmaphysik, rechts ein Chat mit Fragen zur Prüfung.](assets/visio.jpg)
 *Der Moment, wo hinter mir jemand (erfolglos) versucht, eine Palästina-Fahne aufzuhängen, ist leider nicht festgehalten.*
 
 ## Belagerer werden zu Belagerten
 Über den Mittag sind vier Polizeibusse angekommen, und geharnischte Polizisten bewachen nun den Eingang. An die Mitarbeiter geht eine E-Mail, den Campus zu evakuieren.
 
-![](assets/evacuation-mail.jpg)
+![E-Mail des Generaldirektors vom 12. November, 12:21 Uhr, Betreff "Départ anticipé du Campus Pierre-et-Marie Curie ce jour": Wegen der Lage auf dem Campus und der Sicherheitsbedingungen sollen die Vorgesetzten ihr Personal ab sofort nach Hause schicken.](assets/evacuation-mail.jpg)
 *Weil ich im Gegensatz zu den meisten anderen Besuchern nicht an der Assemblée Générale der Mitarbeiter war, die am frühen Nachmittag stattfand, erfahre ich erst Tage später von dieser Evakuation.*
 
 An der Assemblée Générale diesen Nachmittag im besetzten Atrium scheint man überzeugt, dass die Polizei am Abend die Besetzung stürmen wird. Es gibt zwei unmittelbare Präzedenzfälle: Vor mittlerweile einem Monat war eine Versammlung (nicht Besetzung) bei der Universität *Sorbonne Nouvelle* von der CRS [frz. Bereitschaftspolizei] auf Geheiss der Verwaltung brutal geräumt worden. Deren Präsident trat daraufhin zurück[^2]. Anfang dieser Woche räumte die CRS eine Besetzung auf unserem Schwestercampus Clignancourt, wobei es gemäss Aktivisten zu sexuellen Übergriffen gekommen sei.
 
-![](assets/20261112_152329_censure.jpg)
+![Stark verpixelte Aufnahme von oben: Viele Menschen sitzen dicht gedrängt auf dem roten Boden des Atriums; an den Glaswänden hängen Regenbogen- und andere Fahnen.](assets/20261112_152329_censure.jpg)
 *Deine Internetverbindung ist nicht kaputt.*
 
 An der Versammlung sind viele Mitarbeiter anwesend, das Mikrophon geht zunächst aber vor allem im inneren Kreis der Besetzer hin und her. Man bespricht, wie man der Polizei begegnen will: In einer Reihe stehend? Im Kreis am Boden sitzend? Oder anbieten, dass man geordnet und unverletzt herausgehen kann? Wer bleibt überhaupt bis zuletzt, wer würde flüchten?
@@ -114,7 +114,7 @@ Man fordert die Mitarbeiter auf, gerade die etwas Älteren und die Zögernden, s
 
  > Solange hier so viele Mitarbeiter sind, schickt das Präsidium nie die Bullen. Nie schickt es die Bullen, solange so viele Mitarbeiter hier sind. [Grosser Applaus, Rufe: Danke an die Mitarbeiter!]
 
-![](assets/20261112_092326.jpg)
+![Aushang: "When the police enter Jussieu, every person on the campus will be in danger. They will not ask who supports the occupation before they beat and gas us." Darunter französische Zeugenaussagen von Doktoranden, Studenten und Personal der Sorbonne Nouvelle über Schläge, Beleidigungen und Tränengas, sowie zwei QR-Codes.](assets/20261112_092326.jpg)
 *Dieser Anschlag direkt am Eingang ist der einzige englische Text in der Besetzung. QR-Codes verweisen auf weitere Zeugnisse vom [Personal (links)](https://cgt.fercsup.net/syndicats/ile-de-france/universite-sorbonne-nouvelle-paris-3/article/temoignages-de-personnels-de-l-universte-sorbonne-nouvelle-suite-a-l) und [Studenten (rechts)](https://cgt.fercsup.net/syndicats/ile-de-france/universite-sorbonne-nouvelle-paris-3/article/temoignages-d-etudiant-es-de-l-universite-sorbonne-nouvelle-suite-a-l).*
 
 > Wir Mitarbeiter hatten ursprünglich ein grosses Projekt, einen Besetzungsabend zu machen: Karaoke, Filme zu zeigen, zu diskutieren [...] und danach gehen die Mitarbeiter nach Hause.
@@ -127,7 +127,7 @@ Man fordert die Mitarbeiter auf, gerade die etwas Älteren und die Zögernden, s
 
 > Wir haben es mit einer Miliz zu tun, geschickt von einer liberalen Demokratie am Ende ihrer Kräfte, die lieber einen Kompromiss mit autoritären und faschistischen Praktiken eingeht, als zu den Quellen zurückzukehren. Und was ist die Quelle? Wir, das Volk. Gegen uns schicken sie -- entschuldigt -- diese Hurensöhne in Uniform, die Gymnasiasten zusammenschlagen. [...] Was in Clignancourt passiert ist, was hat uns das gezeigt? Dass sie vor keiner Form von Gewalt zurückschrecken, um die Rebellion, die Frankreich seit mehreren Monaten erfasst, einzuschüchtern, zu unterdrücken und zu ersticken. Was für ein Bild geben wir ab, wenn wir sitzen bleiben, angesichts dieser Leute, angesichts dieses Staats? [...] Es ist normal, dass sie uns Angst macht, denn genau das wollen sie. Aber wollt ihr lieber kämpfen, indem ihr vor dieser Polizei sitzen bleibt? [...] Sitzend riskieren wir viel mehr Verletzungen, und vor allem zeigen wir ihnen, dass die Angst uns am Aufstehen hindert.
 
-![](assets/20261112_160037_censure.jpg)
+![Blick von oben in den Lichthof während der Vollversammlung: Viele sitzen auf dem roten Boden, auf den Galerien und in den farbigen Wandöffnungen schauen weitere zu; an den Wänden Parolen aus aufgeklebten Buchstaben.](assets/20261112_160037_censure.jpg)
 *tldr: Corvin wurde nicht verhaftet.*
 
 > Wir kriegen von den CRS aufs Maul. Es gibt Leute mit Behinderung, manche sind Ausländer und könnten eine OQTF kassieren[^5]. Wir sollten die Option behalten, schutzbedürftige Personen zu evakuieren, und zwar gemeinsam, nicht tröpfchenweise, sodass die Leute nicht einer nach dem anderen festgenommen werden. Darüber hinaus verstehe ich, dass ihr gerade das Gefühl habt, wenn ihr rausgeworfen werdet, ist das der Weltuntergang. [...] Aber es ist nicht das Ende der Geschichte. Wenn die Bullen auftauchen, und ihr sagt "Ok, wir hauen ab", dann gebt ihr dem Präsidium auch keinen Hebel, zu sagen "Ihr seid alle Arschlöcher, die die Uni verwüstet haben". Und wenn ihr wollt, besetzt ihr erneut.
@@ -143,12 +143,12 @@ Um uns von der Angst abzulenken, geht die Université Populaire weiter. Ich such
 
 Ich will nicht länger bleiben, als ein normaler Schultag ginge, und stehle mich deshalb kurz nach 17 Uhr davon. Vor dem Eingang hocken die Polizisten in ihren Einsatzbussen, scrollen und warten.
 
-![](assets/20261112_172344.jpg)
+![Drei Polizeibusse stehen in der Abenddämmerung am Strassenrand vor einem Café, einer Bäckerei und der Bar "Les Sciences"; im Vordergrund abgestellte Fahrräder.](assets/20261112_172344.jpg)
 *Als ich meinen Radesel losbinde, steigen die Polizisten aus dem hintersten Bus aus, und dieser fährt davon, um den Parkplatz freizugeben. Geht damit die Räumung los?*
 
 Ganz unbeschadet bin ich doch nicht davongekommen: Die nächsten Tage verfolgt mich ein übler Ohrwurm von *A bas l'état policier* (Nieder mit dem Polizeistaat). Zum Anhören auf [Youtube](https://www.youtube.com/watch?v=IP5zW1zR-4A).
 
-![](assets/entzueckung-des-endes.jpg)
+![Instagram-Post von jussieu.deter: rotes Plakat mit Discokugeln und tanzenden Silhouetten, "Boom de l'Occup' Jussieu (suivi d'une pyjama party) – ce soir 20h à l'Atrium – apportez vos supers copaines, boissons et snacks!"](assets/entzueckung-des-endes.jpg)
 *Eine unschuldige Partyeinladung täuscht über die apokalyptische Stimmung hinweg.*
 
 Stand vier Tage später besteht die Besetzung noch. Die Unileitung hat den Campus wieder geöffnet, was gleichzeitig einen Triumph wie einen Hinweis auf eine bevorstehende Räumung darstellen kann.

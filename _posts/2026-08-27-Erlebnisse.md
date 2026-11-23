@@ -8,7 +8,7 @@ Die letzten drei Jahre war ich um diese Zeit auf Fahrradtour. Der Tradition gem�
 
 Nach gescheiterter Wohnungssuche bin ich für den ersten Monat in Le Pré-Saint-Gervais untergekommen, 9 km von der Uni entfernt, die im Stadtzentrum liegt.
 
-![](assets/map.jpg)
+![Stadtplan von Paris. Ein Pfeil "J'habite ici" zeigt auf Le Pré-Saint-Gervais am nordöstlichen Stadtrand, ein zweiter Pfeil "Sorbonne Université" auf den Jussieu-Campus an der Seine.](assets/map.jpg)
 *Distanzen sind in Wirklichkeit grösser als auf der Karte.*
 
 Meinen treuen Radesel musste ich in Winterthur zurücklassen, dafür bin ich mit einem durchaus ikonischen 80er-Jahre-Fahrrad am Start, auf Ricardo für 49 Franken ersteigert.
@@ -17,17 +17,17 @@ Mein Ziel diesen Donnerstag ist es, von daheim den Weg an die Uni zu finden. Bei
 
 Ein gut ausgebautes Netz von separaten Fahrradwegen erlaubt, entlang der Boulevards grosse Strecken gemütlich zurückzulegen. Es fühlt sich aber sehr "schlauchig" an – sobald man einmal von der vorgegebenen Spur abbiegen will, oder eine grössere Kreuzung überquert, muss man Regeln brechen; jene des Verkehrs und des Anstands: Ich gebe mich als Fussgänger aus, missachte (Fahrrad-)Einbahnstrassen oder schneide anderen den Weg ab.
 
-![](assets/jaures.jpg)
+![Strassenszene neben einem Hochbahnpfeiler: Ein Radfahrer auf einem Leihvelo drängt sich zwischen zwei Lieferwagen hindurch, dahinter Pariser Altbauten.](assets/jaures.jpg)
 *Alle Wege führen durch den Fleischwolf Jaurès.*
 
 Mein Schulweg führt grösstenteils entlang des Canal de l'Ourcq, weiter abwärts bekannt als Bassin de la Villette, Canal Saint Martin oder Bassin des Marais. Dessen Ufer bilden ein kilometerlanges Naherholungsgebiet, wo am letzten Sommerabend des Jahres beste Stimmung herrscht. In dieser Stadt kann ich bleiben. Paris präsentiert sich, ähnlich Berlin, als eine aufregende Mischung aus gentrifiziert und versifft.
 
-![](assets/villette.jpg)
+![Uferweg am Kanal unter Platanen: Joggerinnen, Radfahrer und im Hintergrund Fussgängerbrücke am Wasser. Im Mittelpunkt mein abgestelltes Fahrrad, daneben ein Wocheneinkauf in meinem winzigen Rucksack.](assets/villette.jpg)
 *...hier jedoch vor allem gentrifiziert.*
 
 Auffällig ist der modische Standard. Mit Selbstverständlichkeit trägt man stilvolle Alltagskleidung, unpraktische Designerstücke oder gefälschte Markenklamotten. Auch sonst ist allerlei ikonisches Volk unterwegs. Mein Style scheint genügend angepasst zu sein, um auf Französisch angefaucht zu werden, wenn ich auf dem Bürgersteig fahre.
 
-![](assets/style.jpg)
+![Corvin in lila Hemd mit Fahrrad hält einen lila Rucksack hoch, hinter ihm ein lila blühender Sommerflieder und eine steinerne Pyramide im Park Clemenceau.](assets/style.jpg)
 *die wenigsten wissen [jedoch](assets/rucksack.jpg), dass ich ebenfalls mit einem grossen lila Rucksack angereist bin, unter einer lila Bettdecke schlafe, und einen lila Blog führe.*
 
 Je näher ich dem Zentrum komme, desto wusliger wird der Verkehr. Es ist wie Neapel mit Fahrrädern statt Mopeds. Aus allen Richtungen versuchen Radfahrer, einzuspuren. Sicherheitstipp: Schnell fahren, dann kommt zumindest von hinten niemand. Rote Ampeln sind der grösste Witz. Allein an dem Abend überfahre ich mehr als in einem Jahr daheim.
@@ -40,10 +40,10 @@ In der riesigen Stadt habe ich 4 Anhaltspunkte:
 - Köllner Dom: zu weit östlich
 - Bibliothèque nationale François Mitterand: zu weit südlich
 
-![649](assets/mitterand.jpg)
+![Die Eckürme der Bibliothèque nationale bei Nacht auf ihrem monumentalen Sockel; davor ein Wegweiser "Bibliothèque F. Mitterrand" und daran anlehnend mein Radesel.](assets/mitterand.jpg)
 *Wie die vier Flügel verloren um den Platz stehen, erinnern sie an unsere nie zu Ende gebaute Burg in Minecraft.*
 
 Kurz darauf finde ich die Uni doch noch. Das Areal abgeschlossen, hinein komme ich darum erst in einem zukünftigen Post.
 
-![](assets/sorbonne.jpg)
+![Der Campus Pierre et Marie Curie bei Nacht von aussen: eine Säulenreihe mit Bannern "Sorbonne Université - Faculté des Sciences et Ingénierie", dahinter der runde Turm 14. Unter dem Vordach campieren Obdachlose.](assets/sorbonne.jpg)
 *Wieso 9 km von der Uni wohnen, wenn es auch so geht?*

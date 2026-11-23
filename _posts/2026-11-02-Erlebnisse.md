@@ -9,22 +9,22 @@ Diesen Montag haben wir zum ersten Mal seit 4 Wochen endlich wieder Präsenzunte
 
 Damals hatten Protestierende zum ersten Mal die Eingänge unseres Campus blockiert. Um Klarheit zu schaffen und eine Besetzung zu verhindern, schloss die Unileitung daraufhin den Campus Jussieu zeitweise von sich aus. Als vor zwei Wochen wieder Unterricht stattfinden sollte, erreichten uns um sieben Uhr morgens Fotos von Barrikaden und wir blieben doch daheim. Nach den einwöchigen Ferien beginnt nun ein neuer Abschnitt.
 
-![](assets/flyer_ag.jpg)
+![Zweiseitiger Flyer. Links: "Assemblée générale Jussieu – venez nombreux! Lundi 2 novembre 12h45", darunter ein Demofoto mit dem Transparent "Jussieu en lutte contre l'austérité" und "RDV: Patio 24-25". Rechts ein Text darüber, dass sich die Studierenden von Jussieu seit einem Monat der Schüler- und Studentenbewegung angeschlossen haben, mit der Forderung nach mehr Mitteln für die Bildung.](assets/flyer_ag.jpg)
 *Um sicherzustellen, dass niemand denkt, die Unruhen seien vorbei, wird am Eingang dieser Flyer verteilt.*
 
 Die Profs tun so, als sei nichts passiert. In der Mittagspause bleibt kaum Zeit, sich wirklich auszutauschen. Die Diskussion ist ganz von den Protesten geprägt, denn manche meiner Genossen wohnten direkt im Epizentrum der Demonstrationen. Um 13 Uhr findet die vom Flyer angekündigte Versammlung statt.
 
-![](assets/occuperons_sub_v5.mp4)
+![Vollversammlung im Innenhof zwischen den Campusgebäuden: eine dicht gedrängte Menge vor einem Rednerpult mit Transparent, auf den Galerien stehen weitere Zuhörer. Ein Redner stachelt die Menge an, den Campus zu blockieren, wird dann aber gebremst, man müsse zuerst sachlich darüber abstimmen.](assets/occuperons_sub_v5.mp4)
 *Man beachte den Kampf um das Mikrofon.*
 
 Kurz darauf kommt es zur denkwürdigen Abstimmung:
 
-![](assets/vote_sub_v8.mp4)
+![Dieselbe Vollversammlung: Das Abstimmungsverfahren wird erklärt, und sauber gezählt, wie viele gegen eine Blockade sind. Als gefragt wird: "Wer stimmt für eine Blockade der Uni, keine Besetzung, eine Blockade?" heben sich sehr viele Hände und die Versammlung löst sich auf.](assets/vote_sub_v8.mp4)
 *awfully long video.*
 
 Es gibt kein Halten mehr. If you can't beat them, join them. Nachdem ich eben noch gegen die Blockade gestimmt hatte, bin ich nun mittendrin und helfe mit, Blockaden aufzubauen. Nach nur 10 Minuten sind alle Eingänge abgeriegelt.
 
-![](assets/container.mp4)
+![Studenten tragen Absperrgitter am Atrium vorbei und schieben einen grossen Müllcontainer über die Campusstrasse.](assets/container.mp4)
 *Was sind eigentlich unsere Forderungen?*
 
 Zweieinhalb Stunden später, um 16 Uhr, findet eine weitere Versammlung in einem grossen Hörsaal statt. Es soll darüber abgestimmt werden, ob der Campus weiterhin blockiert wird. Der Raum ist überfüllt, Leute versuchen, vom Eingang her noch einen Blick zu ergattern.
@@ -41,7 +41,7 @@ An der Versammlung werde ich eines Besseren belehrt. Die Revolutionäre sind bas
 
 > Wir haben gesehen, was es für manche bedeutete, von allem abgeschnitten zu sein, von den studentischen Gesundheitsdiensten abgeschnitten zu sein, für ihre körperliche und seelische Gesundheit: Heute mehr denn je sind wir sozial oft isoliert -- ja, der SHSE ist extrem wichtig [Studentischer Behinderten- und Gesundheitsdiest]. Wir müssen darüber abstimmen, dass die essenziellen Diensten zugänglich bleiben -- die Bibliothek, die Kita, die Gesundheitsdienste für die Studierenden -- bevor wir über die Kurse sprechen können.
 
-![](assets/20261102_165414.jpg)
+![Blick von den oberen Reihen in einen voll besetzten Hörsaal mit Bühne; vorne stehen Leute an einem Tisch vor zwei Wandtafeln.](assets/20261102_165414.jpg)
 *An den Wandtafeln werden Notizen zu Vorschlägen gesammelt.*
 
 > Einfach nur die Uni zu blockieren, bringt nichts. Das haben wir in den letzten Wochen gut gesehen: Je länger es ging, desto mehr waren wir allein. Am Ende haben wir mit zwanzig Leuten blockiert. Wenn es also nur darum geht, die Uni für zwei Wochen zu schliessen, mit Studierenden in Not, ausländischen Studierenden, die nicht ihr Leben riskieren, aber ihr Studium, ehrlich... Das bringt nichts, wir ruinieren uns alle. Daran müssen wir wirklich denken. Wenn wir die Uni blockieren, verpflichten wir uns, morgen da zu sein, übermorgen, in den nächsten Wochen, ohne dabei natürlich die eigene Gesundheit zu gefährden.
@@ -105,7 +105,7 @@ Auch wenn sich der Saal nun langsam leert, geht die Debatte weiter. Jemand weiss
 
 Als ich um halb sieben den Hörsaal verlasse, ist es dunkel, nieselt und man weiss immer noch nicht, ob am nächsten Tag Schule sein wird oder nicht. Später erfahren wir, dass für die Demos am Dienstag und Donnerstag der Unterricht ausfällt. Tags darauf beschliessen die Mitarbeiter auf ihrer Versammlung, am Freitag zu streiken.
 
-![](assets/ag_personnel.jpg)
+![Wandtafel mit Kreidenotizen, jeweils mit "→ ADOPTÉ": Streik am 5. und 6.11., Université populaire am 6.11., Demo am 5.11. mit Treffpunkt 12 Uhr in Jussieu, heutige Schüler-Studenten-Demo und Vollversammlung am Freitag im Amphi 25.](assets/ag_personnel.jpg)
 *Wandtafel der Mitarbeiter.*
 
 [^1]: Methodik: Handyaufnahme während der Versammlung, auf dem Laptop lokal transkribiert, anonymisiert, mit KI übersetzt, von Hand gekürzt. Die Reihenfolge ist chronologisch.
