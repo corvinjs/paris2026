@@ -121,6 +121,18 @@ iframe) + br {
 
 audio { min-width: 80%; }
 
+/* make only the image itself clickable, not the whole line */
+a.picture {
+    display: block;
+    width: fit-content;
+    margin-inline: auto;
+}
+
+/* print-only links to video/audio (see _plugins/media_embed.rb) */
+.print-media {
+    display: none;
+}
+
 p:has(:is(a.picture,img,picture,video,audio) + br + em) {
     /* Image subtitle */
     margin-bottom: 2rem;
@@ -318,4 +330,203 @@ details:not(.toc) {
     #main-wrapper {
     grid-template-columns: 1fr 3fr 1fr;
     }
+}
+
+/* print */
+
+@page {
+    size: A4 portrait;
+    margin: 16mm 18mm 18mm;
+
+    @bottom-center {
+        content: counter(page) " / " counter(pages);
+        font-family: 'LM Sans', system-ui, sans-serif;
+        font-size: 9pt;
+        color: #666;
+    }
+}
+
+@media print {
+    :root {
+        --content-margin-x: 0px;
+        /* darker accent, readable on paper and in greyscale */
+        --color-hyperlink: hsl(287, 55%, 35%);
+    }
+
+    html {
+        font-size: 11pt;
+    }
+
+    * {
+        font-size: inherit;
+    }
+
+    body {
+        font-size: 11pt;
+        line-height: 1.45;
+        orphans: 3;
+        widows: 3;
+    }
+
+    /* navigation chrome: keep only the blog title as a small header */
+    nav {
+        position: static;
+        padding: 0 0 4px;
+        margin-bottom: 14px;
+        background: none;
+        border-bottom: 1px solid var(--color-navbar);
+    }
+    nav a {
+        color: var(--color-navbar);
+        font-size: 9pt;
+        padding: 0;
+    }
+    nav .nav-icons,
+    #desktop-toc,
+    #left-column,
+    #right-column,
+    #mobile-toc,
+    #mobile-toc + hr,
+    #content > footer,
+    .link-to-previous-post,
+    .footnotes .reversefootnote {
+        display: none !important;
+    }
+
+    #main-wrapper {
+        display: block;
+    }
+    #main-wrapper > *,
+    #content {
+        max-width: none;
+        margin: 0;
+    }
+    #content {
+        text-align: justify;
+        hyphens: auto;
+    }
+    #content :is(h1, h2, h3, h4, h5, h6) {
+        text-align: left;
+        hyphens: manual;
+        break-after: avoid;
+        break-inside: avoid;
+    }
+    h1 { font-size: 22pt; margin-bottom: 10pt; }
+    h2 { font-size: 15pt; margin-top: 16pt; }
+    h3 { font-size: 12.5pt; }
+    sup, sub { font-size: 75%; }
+    small, small * { font-size: 9pt; }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* figures: never split, keep caption with image */
+    img, video, picture, a.picture, audio, iframe {
+        break-inside: avoid;
+    }
+    img, video, iframe {
+        max-height: 110mm;
+        width: auto;
+        padding: 6pt 0;
+    }
+    /* figure paragraph = media + <br> + caption (possibly several <em>s) */
+    p:has(> :is(a.picture, a.print-media, picture, img, video, iframe)) {
+        break-inside: avoid;
+        text-align: center;
+        font-size: 9.5pt;
+        line-height: 1.35;
+        margin-bottom: 14pt;
+    }
+
+    /* players don't work on paper: replace them with links to the online file */
+    video, audio {
+        display: none;
+    }
+    a.print-media {
+        display: block;
+        position: relative;
+        width: fit-content;
+        margin-inline: auto;
+        break-inside: avoid;
+    }
+    /* play badge on the poster frame */
+    a.print-media-video:not(.print-media-text)::after {
+        content: "\25B6\FE0E";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        width: 13mm;
+        height: 13mm;
+        display: grid;
+        place-items: center;
+        padding-left: 1mm;
+        border-radius: 50%;
+        background: rgb(0 0 0 / .55);
+        border: 1.5pt solid white;
+        color: white;
+        font-size: 15pt;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    a.print-media-text {
+        padding: 3pt 0;
+        font-style: italic;
+    }
+    a.print-media-video.print-media-text::before { content: "\25B6\FE0E  "; }
+    a.print-media-audio::before { content: "\266A  "; }
+    p:has(> a.print-media-audio) > br { display: none; }
+
+    blockquote {
+        margin: 12pt 0;
+        padding: 9pt 12pt;
+        border-radius: 0 0 14pt 0;
+        /* long quotes may span pages; repeat padding on each fragment */
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* show collapsed content on paper, framed as a sidebar box */
+    details:not(.toc) {
+        margin: 14pt 0;
+        padding: 0 12pt 8pt;
+        border: 1pt solid color-mix(in srgb, var(--color-navbar) 45%, transparent);
+        border-radius: 0 0 14pt 0;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+
+        &::details-content {
+            content-visibility: visible;
+            display: contents;
+        }
+        &:not([open]) > *:not(summary) {
+            display: block !important;
+        }
+        > summary {
+            margin: 0 -12pt 8pt;
+            padding: 5pt 12pt;
+            background: color-mix(in srgb, var(--color-navbar) 14%, transparent);
+            font-weight: bold;
+            break-after: avoid;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        > summary::before,
+        > summary::after {
+            display: none;
+        }
+        &[open] > :not(summary),
+        > :not(summary) { margin-inline-start: 0; }
+        > :last-child { margin-bottom: 0; }
+    }
+
+    .footnotes {
+        font-size: 9.5pt;
+        break-before: avoid;
+    }
+    .footnotes ol { padding-left: 2.2em; }
+    hr { margin: 12pt 0; }
 }

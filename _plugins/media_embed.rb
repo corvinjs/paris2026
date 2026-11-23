@@ -34,10 +34,23 @@ module MediaEmbed
     when :video
       poster_attr = poster ? %( poster="#{poster}") : ""
       label_attr = alt && !alt.empty? ? %( aria-label="#{CGI.escapeHTML(alt)}") : ""
-      %(<video controls preload="none" playsinline#{poster_attr}#{label_attr} src="#{url}"></video>)
+      %(#{print_link(:video, url, poster, alt)}<video controls preload="none" playsinline#{poster_attr}#{label_attr} src="#{url}"></video>)
     when :audio
-      %(<audio controls preload="metadata" src="#{url}">#{fallback}</audio>)
+      %(#{print_link(:audio, url, nil, alt)}<audio controls preload="metadata" src="#{url}">#{fallback}</audio>)
     end
+  end
+
+  # Hidden on screen; in print it replaces the player with a link to the online file
+  # (videos: the poster frame with a play symbol, audio: a text label).
+  def print_link(kind, url, poster, alt)
+    content = if kind == :video && poster
+                %(<img src="#{poster}" alt="#{CGI.escapeHTML(alt.to_s)}">)
+              elsif kind == :video
+                "Video online ansehen"
+              else
+                "Tonaufnahme online anhören"
+              end
+    %(<a class="print-media print-media-#{kind}#{poster ? '' : ' print-media-text'}" href="#{url}" aria-hidden="true" tabindex="-1">#{content}</a>)
   end
 
   def discover_videos(site)
