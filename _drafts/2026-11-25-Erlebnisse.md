@@ -5,4 +5,4 @@ image: favicon.ico
 layout: post
 permalink: /:short_month-:day:output_ext
 ---
-![](assets/restauration.jpg)
+![](assets/restauration.jpg)![](assets/sauron_belagert.jpg)
