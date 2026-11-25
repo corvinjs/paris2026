@@ -20,9 +20,7 @@ Zu Beginn jeder Datei kannst du einstellen:
 ### Veröffentlichen mit Github Pages
 - Stelle in den Repository-Einstellungen unter *Pages* die *Source* auf **GitHub Actions**.
 - Trage in `_config.yml` unter `url` die Adresse deiner Seite ein (z.B. `https://deinname.github.io`). `baseurl` setzt der Workflow selbst.
-- Jeder Push auf `main` baut die Seite neu (`.github/workflows/pages.yml`). Für den ersten Lauf: *Actions* → *Pages* → *Run workflow*.
-- Bilder werden dabei in mehrere Grössen und ins JPEG-XL-Format umgerechnet. Die Varianten bleiben im Cache, sodass nur neue Bilder umgerechnet werden.
-
+- Wann immer du deine lokalen Änderungen ("commit") auf Github synchronisierst ("push"), wird die Seite neu gebaut. ( siehe `.github/workflows/pages.yml`). Den ersten Lauf im Github-Web-Menu auslösen: *Actions* -> *Pages* -> *Run workflow*.
 ### Lokal bauen
 - Installiere die Programme, die in der zweiten Zeile von `build.sh` stehen (Debian/Ubuntu: `sudo apt install jekyll imagemagick libjxl-tools ffmpegthumbnailer`).
 - `bash build.sh` baut die Seite nach `_site/`. Anschauen z.B. mit `python3 -m http.server -d _site` und dann http://localhost:8000 mit dem `baseurl` aus `_config.yml` öffnen, oder `bash build.sh "" _site` für eine Vorschau direkt unter http://localhost:8000.
