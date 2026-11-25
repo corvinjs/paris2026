@@ -37,6 +37,7 @@ jobs:
 
       - name: Install build dependencies
         run: |
+          sudo rm -f /var/lib/man-db/auto-update # skip the slow man-db trigger
           sudo apt-get update -qq
           sudo apt-get install -yqq --no-install-recommends $(sed -n 's/^# apt: //p' build.sh)
 
