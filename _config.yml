@@ -12,20 +12,23 @@ url: https://corvin.sydow.ch
 baseurl: /paris2026
 
 preload:
-  - href: /fonts/lmsans10-regular.woff2
+  - href: fonts/lmsans10-regular.woff2
     as: font
     crossorigin: anonymous
-  - href: /fonts/LTSuperiorSerif-Bold.woff2
+  - href: fonts/LTSuperiorSerif-Bold.woff2
     as: font
     crossorigin: anonymous
+
+# Generated image variants and video posters live in the output directory, so
+# a build reuses those of the previous one.
+keep_files:
+  - assets/downsized
 
 exclude:
   - "*.sh"
   - post-template.md
   - pages/home.md
   - README.md
-  - assets/downsized/
-  - cache-paths
   - sync-ignore/
 
 defaults:

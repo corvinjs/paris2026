@@ -74,7 +74,7 @@ module MediaEmbed
   end
 
   def thumbnail_path(site, rel_path)
-    File.join(site.source, thumbnail_rel_path(rel_path))
+    File.join(site.dest, thumbnail_rel_path(rel_path))
   end
 
   def thumbnail_digest_path(site, rel_path)
@@ -128,17 +128,6 @@ module MediaEmbed
     FileUtils.rm_f(temporary_digest) if temporary_digest
   end
 
-  def register_thumbnail_files!(site)
-    registered = site.static_files.map { |file| file.relative_path.sub(%r{\A/}, "") }
-    discover_videos(site).each do |rel_path|
-      rel = thumbnail_rel_path(rel_path)
-      next unless thumbnail_available?(site, rel_path) && !registered.include?(rel)
-
-      site.static_files << Jekyll::StaticFile.new(site, site.source, File.dirname(rel), File.basename(rel))
-      registered << rel
-    end
-  end
-
   def ensure_thumbnails!(site)
     generated = skipped = failed = 0
     discover_videos(site).each do |rel_path|
@@ -148,7 +137,6 @@ module MediaEmbed
       when :failed then failed += 1
       end
     end
-    register_thumbnail_files!(site)
     $stdout.puts "==> MediaEmbed: generated #{generated}, skipped #{skipped}, failed #{failed}"
   end
 

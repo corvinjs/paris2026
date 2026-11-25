@@ -21,13 +21,13 @@
 
 /* Schriftart */
 
-/* die beiden folgenden Blöcke ersetzen für eigene Schriftart -- die Schriften sind in diesem Repo nicht enthalten */
+/* die folgenden Blöcke und die Dateien in fonts/ ersetzen für eigene Schriftarten */
 @font-face {
     font-family: 'LM Sans';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('/fonts/lmsans10-regular.woff2') format('woff2');
+    src: url('fonts/lmsans10-regular.woff2') format('woff2');
 }
 
 /* Bold (Weight: 700) - use Volute font */
@@ -36,7 +36,7 @@
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url('/fonts/LTSuperiorSerif-Bold.woff2') format('woff2');
+    src: url('fonts/LTSuperiorSerif-Bold.woff2') format('woff2');
 }
 
 @font-face {
@@ -44,7 +44,7 @@
     font-style: italic;
     font-weight: 100 700;
     font-display: swap;
-    src: url('/fonts/JosefinSans-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url('fonts/JosefinSans-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
 body {

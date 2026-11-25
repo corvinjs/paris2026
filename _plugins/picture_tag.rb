@@ -37,7 +37,7 @@ module PictureTag
   end
 
   def downsized_dir(site)
-    File.join(site.source, "assets", "downsized")
+    File.join(site.dest, "assets", "downsized")
   end
 
   def manifest_path(site)
@@ -130,12 +130,12 @@ module PictureTag
   end
 
   def output_path(site, rel_path, width, format)
-    File.join(site.source, output_rel(rel_path, width, format))
+    File.join(site.dest, output_rel(rel_path, width, format))
   end
 
   def expected_outputs(site, entry)
     Array(entry && entry["candidates"]).flat_map do |candidate|
-      FORMATS.map { |format| File.join(site.source, candidate[format]["rel_path"]) }
+      FORMATS.map { |format| File.join(site.dest, candidate[format]["rel_path"]) }
     end
   end
 
@@ -167,7 +167,7 @@ module PictureTag
         files = {}
         FORMATS.each do |format|
           rel = output_rel(rel_path, width, format)
-          path = File.join(site.source, rel)
+          path = File.join(site.dest, rel)
           tmp = "#{path}.tmp.#{token}.#{format == "jpeg" ? "jpg" : "jxl"}"
           FileUtils.mkdir_p(File.dirname(path))
           actual = nil
@@ -212,19 +212,6 @@ module PictureTag
     }
   end
 
-  def register_downsized_files!(site)
-    dir = downsized_dir(site)
-    return unless File.directory?(dir)
-    registered = site.static_files.map { |file| file.relative_path.sub(%r{\A/}, "") }
-    Dir.glob(File.join(dir, "**", "*")).select { |path| File.file?(path) }.each do |path|
-      rel = path.delete_prefix("#{site.source}/")
-      next if rel == "assets/downsized/#{MANIFEST_NAME}" || registered.include?(rel)
-      relative_dir = File.dirname(rel)
-      name = File.basename(rel)
-      site.static_files << Jekyll::StaticFile.new(site, site.source, relative_dir, name)
-    end
-  end
-
   def ensure_variants!(site)
     old = load_manifest(site)
     manifest = {
@@ -247,7 +234,6 @@ module PictureTag
       end
     end
     save_manifest(site, manifest)
-    register_downsized_files!(site)
     $stdout.puts "==> PictureTag: converted #{converted}, skipped #{skipped}, failed 0"
   end
 

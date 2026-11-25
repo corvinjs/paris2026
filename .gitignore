@@ -1,5 +1,5 @@
 _site/
-assets/downsized/
+.jekyll-cache/
 
 .obsidian/
 !.obsidian/app.json
@@ -9,4 +9,3 @@ assets/downsized/
 todo.md
 sync-ignore/
 
-.gems

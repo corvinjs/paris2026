@@ -1,0 +1,67 @@
+# Publishes this blog on its own GitHub Pages site.
+# Dormant until Pages is enabled for the repository (Settings → Pages → Source:
+# GitHub Actions), so it does nothing where the blog is used as a submodule.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write # delete superseded caches
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.event.repository.has_pages
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      # _site keeps the image variants of the last build, so only new images are converted.
+      - uses: actions/cache/restore@v6
+        with:
+          path: _site
+          key: pages-${{ github.sha }}
+          restore-keys: pages-
+
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -yqq --no-install-recommends $(sed -n 's/^# apt: //p' build.sh)
+
+      - run: bash build.sh "${{ steps.pages.outputs.base_path }}" _site
+
+      - uses: actions/cache/save@v6
+        with:
+          path: _site
+          key: pages-${{ github.sha }}
+
+      - name: Delete superseded caches
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh cache list --key pages- --json key --jq '.[].key' |
+            grep -vx "pages-${{ github.sha }}" |
+            while read -r key; do gh cache delete "$key"; done
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v5.0.1
